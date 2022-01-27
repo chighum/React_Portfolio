@@ -7,7 +7,7 @@ function Footer() {
   return (
     <footer className="navbar fixed-bottom">
       <a
-        className="nav-link"
+        className="nav-link ms-5"
         href="https://github.com/chighum"
         target="_blank"
         rel="noopener noreferrer"
@@ -31,7 +31,7 @@ function Footer() {
           <HiMail size="40px" />
         </span>
       </a>
-      <a className="nav-link" href="tel:1-303-775-6820">
+      <a className="nav-link me-5" href="tel:1-303-775-6820">
         <span>
           <HiPhoneOutgoing size="40px" />
         </span>

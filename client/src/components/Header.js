@@ -6,8 +6,8 @@ import "../styles/Header.css";
 function Header() {
   return (
     <header className="navbar fixed-top">
-      <a className="nav-link" href="/">
-        <img src={logo}></img>
+      <a className="nav-link ms-3" href="/">
+        <img src={logo} alt="Logo I made on favicon.io"></img>
       </a>
       <Navigation />
     </header>

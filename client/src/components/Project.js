@@ -8,7 +8,7 @@ function Project() {
       <div className="row">
         {projects.map((project) => {
           return (
-            <div className="col-6">
+            <div className="col-6 mb-5">
               <button
                 type="button"
                 className="btn"
@@ -17,7 +17,9 @@ function Project() {
               >
                 <img
                   src={project.image}
+                  alt={project.name}
                   style={{ width: 500, height: 300 }}
+                  className="rounded-3 shadow"
                 ></img>
               </button>
 

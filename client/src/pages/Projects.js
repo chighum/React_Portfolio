@@ -7,7 +7,7 @@ function Projects() {
   });
   return (
     <div className="row">
-      <div className="ms-3 col-2">
+      <div className="ms-5 col-2 align-self-center">
         <p>
           To the right you can find screenshots of some of my favorite projects
           that I've done in my short time as a full stack web developer. Most of
