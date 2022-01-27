@@ -3,7 +3,7 @@ import Project from "../components/Project";
 
 function Projects() {
   React.useEffect(() => {
-    document.title = "Resume";
+    document.title = "Projects";
   });
   return (
     <div>

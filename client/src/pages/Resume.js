@@ -2,7 +2,7 @@ import React from "react";
 
 function Resume() {
   React.useEffect(() => {
-    document.title = "Projects";
+    document.title = "Resume";
   });
   return (
     <div>
