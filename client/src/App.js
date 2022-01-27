@@ -7,13 +7,14 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
+import "./styles/App.css";
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Header />
-        <main className="mt-5 pt-5 mb-5 pb-5">
+        <main className="my-5 py-5 min-vh-100">
           <Route exact path="/">
             <Home />
           </Route>

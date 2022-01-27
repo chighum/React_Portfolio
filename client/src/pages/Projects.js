@@ -6,15 +6,18 @@ function Projects() {
     document.title = "Projects";
   });
   return (
-    <div className="container">
-      <div className="row">
-        <p className="col-3 text-center">
-          To the right you can find screenshots of some of my favorite and
-          proudest projects that I've done in my short time as a full stack web
-          developer.
+    <div className="row">
+      <div className="ms-3 col-2">
+        <p>
+          To the right you can find screenshots of some of my favorite projects
+          that I've done in my short time as a full stack web developer. Most of
+          these projects come from my time in the DU Full Stack Web Development
+          Bootcamp which I just finished at the end of January. Simply click on
+          the image to find out more about the project and get links to both the
+          deployed live application and Github repository.
         </p>
-        <Project />
       </div>
+      <Project />
     </div>
   );
 }
