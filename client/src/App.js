@@ -14,7 +14,7 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <main className="">
+        <main className="mt-5 pt-5 mb-5 pb-5">
           <Route exact path="/">
             <Home />
           </Route>
