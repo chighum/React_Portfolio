@@ -1,19 +1,20 @@
 import React from "react";
+import "../styles/Navigation.css";
 
 function Navigation() {
   return (
     <nav className="navbar">
       <a className="nav-link" href="/about">
-        About Me
+        <span>About Me</span>
       </a>
       <a className="nav-link" href="/projects">
-        My Projects
+        <span>Projects</span>
       </a>
       <a className="nav-link" href="/contact">
-        Contact Me
+        <span>Contact Me</span>
       </a>
       <a className="nav-link" href="/resume">
-        Resume
+        <span>Resume</span>
       </a>
     </nav>
   );
