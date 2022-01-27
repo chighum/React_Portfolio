@@ -1,9 +1,13 @@
 import React from "react";
+import Navigation from "./Navigation";
 
 function Header() {
   return (
-    <header>
-      <h1>Header</h1>
+    <header className="navbar">
+      <a className="nav-link" href="/">
+        Add Logo Here
+      </a>
+      <Navigation />
     </header>
   );
 }

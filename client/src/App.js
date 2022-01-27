@@ -2,9 +2,8 @@ import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from "./components/Header";
-import Navigation from "./components/Navigation";
-import Project from "./components/Project";
 import Footer from "./components/Footer";
+import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
@@ -14,8 +13,11 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Navigation />
+        <Header />
         <main>
+          <Route exact path="/">
+            <Home />
+          </Route>
           <Route exact path="/about">
             <About />
           </Route>
