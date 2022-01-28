@@ -3,7 +3,7 @@ import "../styles/Navigation.css";
 
 function Navigation() {
   return (
-    <nav className="navbar">
+    <nav className="navbar me-2">
       <a className="nav-link" href="/about">
         <span>About Me</span>
       </a>
