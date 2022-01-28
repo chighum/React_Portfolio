@@ -14,19 +14,19 @@ function Navigation() {
       >
         <span>About Me</span>
       </a>
-      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
         <li>
-          <a class="dropdown-item" href="/background">
+          <a className="dropdown-item" href="/background">
             Background
           </a>
         </li>
         <li>
-          <a class="dropdown-item" href="/coding">
+          <a className="dropdown-item" href="/coding">
             Web Development
           </a>
         </li>
         <li>
-          <a class="dropdown-item" href="/hobbies">
+          <a className="dropdown-item" href="/hobbies">
             Hobbies
           </a>
         </li>

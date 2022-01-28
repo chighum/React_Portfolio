@@ -7,7 +7,7 @@ function Header() {
   return (
     <header className="navbar fixed-top">
       <a className="nav-link ms-3" href="/">
-        <img src={logo} alt="Logo I made on favicon.io"></img>
+        <img src={logo} alt="Logo I made on favicon.io" id="lightLogo"></img>
       </a>
       <Navigation />
     </header>

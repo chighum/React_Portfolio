@@ -26,7 +26,7 @@ function Project() {
               <div
                 className="modal fade"
                 id={project.name}
-                tabindex="-1"
+                tabIndex="-1"
                 aria-labelledby="exampleModalLabel"
                 aria-hidden="true"
               >
