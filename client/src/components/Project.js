@@ -9,7 +9,7 @@ function Project() {
       <div className="row">
         {projects.map((project) => {
           return (
-            <div className="col-6 mb-5">
+            <div className="col-6 mb-5" key={project.name}>
               <button
                 type="button"
                 className="btn shadow modalBtn"
