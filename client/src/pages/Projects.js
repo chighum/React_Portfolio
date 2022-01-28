@@ -9,8 +9,8 @@ function Projects() {
     <div className="row">
       <div className="ms-5 col-2 align-self-center">
         <p>
-          To the right you can find screenshots of some of my favorite projects
-          that I've done in my short time as a full stack web developer. Most of
+          Here you can find screenshots of some of my favorite projects that
+          I've done in my short time as a full stack web developer. Most of
           these projects come from my time in the DU Full Stack Web Development
           Bootcamp which I just finished at the end of January. Simply click on
           the image to find out more about the project and get links to both the

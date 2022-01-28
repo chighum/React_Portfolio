@@ -1,5 +1,6 @@
 import React from "react";
 import projects from "../data/ProjectData";
+import "../styles/Project.css";
 
 // this will generate each individual project
 function Project() {
@@ -11,7 +12,7 @@ function Project() {
             <div className="col-6 mb-5">
               <button
                 type="button"
-                className="btn"
+                className="btn shadow"
                 data-bs-toggle="modal"
                 data-bs-target={project.id}
               >
@@ -22,7 +23,6 @@ function Project() {
                   className="rounded-3 shadow"
                 ></img>
               </button>
-
               <div
                 className="modal fade"
                 id={project.name}
@@ -41,7 +41,7 @@ function Project() {
                       </h5>
                       <button
                         type="button"
-                        className="btn-close"
+                        className="btn-close btn-close-white"
                         data-bs-dismiss="modal"
                         aria-label="Close"
                       ></button>
@@ -54,6 +54,7 @@ function Project() {
                         href={project.deployed}
                         target="_blank"
                         rel="noopener noreferrer"
+                        className="text-decoration-none"
                       >
                         Deployed Application
                       </a>
@@ -61,6 +62,7 @@ function Project() {
                         href={project.github}
                         target="_blank"
                         rel="noopener noreferrer"
+                        className="text-decoration-none"
                       >
                         Github Repository
                       </a>
