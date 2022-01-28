@@ -6,11 +6,12 @@ function Resume() {
   });
   return (
     <div>
-      <div className="mb-2">
+      <div className="mb-3">
         <a
           href="./images/CodingResume.pdf"
           role="button"
           target="_blank"
+          className="downloadbtn p-2"
           download
         >
           Download as PDF
