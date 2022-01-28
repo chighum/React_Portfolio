@@ -12,7 +12,7 @@ function Project() {
             <div className="col-6 mb-5">
               <button
                 type="button"
-                className="btn shadow"
+                className="btn shadow modalBtn"
                 data-bs-toggle="modal"
                 data-bs-target={project.id}
               >
@@ -54,7 +54,6 @@ function Project() {
                         href={project.deployed}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-decoration-none"
                       >
                         Deployed Application
                       </a>
@@ -62,7 +61,6 @@ function Project() {
                         href={project.github}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-decoration-none"
                       >
                         Github Repository
                       </a>

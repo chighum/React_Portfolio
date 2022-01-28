@@ -1,3 +1,7 @@
 main {
   background-color: #e7e1da;
 }
+
+a {
+  text-decoration: none !important;
+}

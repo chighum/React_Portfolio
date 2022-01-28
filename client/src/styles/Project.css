@@ -1,11 +1,11 @@
 .modal-body,
 .modal-header,
 .modal-footer,
-a {
+.modal-footer a {
   background-color: #203274;
   color: #e7e1da !important;
 }
 
-.btn {
+.modalBtn {
   background-color: #203274 !important;
 }
