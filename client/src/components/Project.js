@@ -54,6 +54,7 @@ function Project() {
                         href={project.deployed}
                         target="_blank"
                         rel="noopener noreferrer"
+                        className="border rounded px-2 py-1 me-auto"
                       >
                         Deployed Application
                       </a>
@@ -61,6 +62,7 @@ function Project() {
                         href={project.github}
                         target="_blank"
                         rel="noopener noreferrer"
+                        className="border rounded px-2 py-1"
                       >
                         Github Repository
                       </a>

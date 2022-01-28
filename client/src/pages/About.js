@@ -20,6 +20,14 @@ function About() {
       <Route exact path="/hobbies">
         <Hobbies />
       </Route>
+      <div>
+        <button type="button" className="btn btn-outline-dark">
+          Previous Page
+        </button>
+        <button type="button" className="btn btn-outline-dark">
+          Next Page
+        </button>
+      </div>
     </div>
   );
 }
