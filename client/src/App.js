@@ -15,27 +15,32 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Header />
         <main className="my-5 py-5 min-vh-100">
           <Route exact path="/">
             <Home />
           </Route>
           <Route exact path="/background">
+            <Header />
             <Background />
           </Route>
           <Route exact path="/coding">
+            <Header />
             <Coding />
           </Route>
           <Route exact path="/hobbies">
+            <Header />
             <Hobbies />
           </Route>
           <Route exact path="/projects">
+            <Header />
             <Projects />
           </Route>
           <Route exact path="/contact">
+            <Header />
             <Contact />
           </Route>
           <Route exact path="/resume">
+            <Header />
             <Resume />
           </Route>
         </main>
