@@ -20,9 +20,11 @@ function Hobbies() {
           </p>
           <br />
           <p>
-            I am very grateful to live in Colorado and be able to go on all
-            sorts of adventures when I please, I also love to get out of the
-            state and travel when I can.
+            While I am very grateful to live in Colorado and be able to go on
+            all sorts of adventures when I please, I also love to get out of the
+            state and travel the world when I can. Some of my favorite places
+            I've traveled to around the world include Thailand, Patagonia,
+            Tuscany, and New Zealand.
           </p>
         </div>
         <div className="col-5 mx-5">
