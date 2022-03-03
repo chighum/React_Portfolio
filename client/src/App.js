@@ -17,7 +17,23 @@ function App() {
       <div className="App">
         <Header />
         <main className="my-5 py-5 min-vh-100">
-          <Route exact path="/">
+          <Routes>
+            <Route exact path="/" element={<Home />}>
+            </Route>
+            <Route exact path="/background" element={<Background />}>
+            </Route>
+            <Route exact path="/coding" element={<Coding />}>
+            </Route>
+            <Route exact path="/hobbies" element={<Hobbies />}>
+            </Route>
+            <Route exact path="/projects" element={<Projects />}>
+            </Route>
+            <Route exact path="/contact" element={<Contact />}>
+            </Route>
+            <Route exact path="/resume" element={<Resume />}>
+            </Route>
+          </Routes>
+          <Route exact path="/" element={}>
             <Home />
           </Route>
           <Route exact path="/background">
