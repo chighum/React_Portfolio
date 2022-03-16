@@ -9,13 +9,25 @@ function Home() {
   return (
     <div>
       <h3>Welcome to my portfolio page!</h3>
-      <h5>
-        My name is Charlie Highum, and I am a Full-Stack Web Developer in
-        Denver, Colorado. I love to solve problems and learn new coding
-        frameworks or entire languages. Please feel free to learn more about me
-        using the navigation bar at the top of the page, and thanks for stopping
-        by!
-      </h5>
+      <div className="col-5 mx-5 align-self-center">
+        <h5>
+          My name is Charlie Highum, and I am a Full-Stack Web Developer in
+          Denver, Colorado.
+        </h5>
+        <br />
+        <h5>
+          I love to solve problems and learn new coding frameworks or entire
+          languages.
+        </h5>
+        <br />
+        <h5>
+          Please feel free to learn more about me using the navigation bar at
+          the top of the page.
+        </h5>
+        <br />
+        <h3>Thanks for stopping by!</h3>
+      </div>
+      <div className="col-5 mx-5"></div>
     </div>
   );
 }
