@@ -63,9 +63,6 @@ function Contact() {
                     required
                   />
                   <label for="email">Email</label>
-                  <div id="emailHelp" class="form-text">
-                    I'll never share your email with anyone else.
-                  </div>
                 </div>
               </div>
               <div className="form-floating mb-3">
@@ -80,16 +77,16 @@ function Contact() {
                 <label for="subject">Subject</label>
               </div>
               <div className="form-floating">
-                <input
+                <textarea
                   name="message"
                   id="message"
                   className="form-control"
                   onChange={handleInputChange}
                   type="text"
-                  rows="5"
+                  rows="3"
                   placeholder="Type your message here"
                   required
-                />
+                ></textarea>
                 <label for="message">Type your message here</label>
               </div>
               <button
