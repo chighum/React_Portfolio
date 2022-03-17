@@ -65,7 +65,7 @@ function Contact() {
                   <label for="email">Email</label>
                 </div>
               </div>
-              <div className="form-floating mb-3">
+              <div className="form-floating my-3">
                 <input
                   placeholder="Subject"
                   id="subject"
@@ -82,8 +82,7 @@ function Contact() {
                   id="message"
                   className="form-control"
                   onChange={handleInputChange}
-                  type="text"
-                  rows="3"
+                  rows="5"
                   placeholder="Type your message here"
                   required
                 ></textarea>
