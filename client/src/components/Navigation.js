@@ -25,11 +25,11 @@ function Navigation() {
             Web Development
           </a>
         </li>
-        <li>
+        {/* <li>
           <a className="dropdown-item" href="/hobbies">
-            Hobbies
+            Photos
           </a>
-        </li>
+        </li> */}
       </ul>
       <a className="nav-link" href="/projects">
         <span>Projects</span>

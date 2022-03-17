@@ -34,7 +34,7 @@ function Project() {
                   <div className="modal-content">
                     <div className="modal-header">
                       <h5 className="modal-title text-center" id={project.name}>
-                        {project.name}
+                        {project.space_name}
                       </h5>
                       <button
                         type="button"
