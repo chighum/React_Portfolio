@@ -29,24 +29,57 @@ function Contact() {
   return (
     <div>
       <h1>Fill out the form to contact me:</h1>
-      <form className="form">
-        <input
-          name="name"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="name"
-        />
-        <input
-          name="email"
-          onChange={handleInputChange}
-          type="email"
-          placeholder="email"
-        />
+      <form
+        className="form"
+        id="contact-form"
+        method="POST"
+        action="send"
+        enctype="multipart/form-data"
+      >
+        <div class="form-group">
+          <div class="row">
+            <div class="col-md-6">
+              <input
+                name="name"
+                id="name"
+                class="form-control"
+                onChange={handleInputChange}
+                type="text"
+                placeholder="Name"
+                required
+              />
+            </div>
+            <div class="col-md-6">
+              <input
+                name="email"
+                id="email"
+                class="form-control"
+                onChange={handleInputChange}
+                type="email"
+                placeholder="Email"
+                required
+              />
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <input
+            placeholder="Subject"
+            id="subject"
+            name="subject"
+            type="text"
+            class="form-control"
+            required
+          />
+        </div>
         <input
           name="message"
+          id="message"
+          class="form-control"
           onChange={handleInputChange}
           type="text"
           placeholder="Type your message here"
+          required
         />
         <button
           type="button"
