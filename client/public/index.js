@@ -12,6 +12,6 @@ const sendMail = (mail) => {
     method: "post",
     body: mail,
   }).then((response) => {
-    return response.json();
+    console.log(response);
   });
 };
