@@ -9,7 +9,13 @@ function Coding() {
       <h1>About Me</h1>
       <div className="row">
         <div className="col-5 mx-5">
-          <h3>Photos of languages</h3>
+          <h3>Selection of technologies:</h3>
+          <img
+            src="./images/Technologies.png"
+            alt="Technologies I know"
+            style={{ width: 300, height: 250 }}
+            className="rounded-3 shadow"
+          ></img>
         </div>
         <div className="col-5 mx-5">
           <h3>Web Development</h3>
