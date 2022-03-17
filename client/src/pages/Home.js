@@ -30,7 +30,7 @@ function Home() {
         <img
           src="./images/IMG_1988.jpeg"
           alt="Photo of Me"
-          style={{ width: 500, height: 300 }}
+          style={{ width: 300, height: 400 }}
           className="rounded-3 shadow"
         ></img>
       </div>
