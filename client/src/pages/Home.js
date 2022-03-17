@@ -25,9 +25,16 @@ function Home() {
           the top of the page.
         </h5>
         <br />
-        <h3>Thanks for stopping by!</h3>
       </div>
-      <div className="col-5 mx-5"></div>
+      <div className="col-5 mx-5">
+        <img
+          src="./images/IMG_1988.jpeg"
+          alt="Photo of Me"
+          style={{ width: 500, height: 300 }}
+          className="rounded-3 shadow"
+        ></img>
+      </div>
+      <h3>Thanks for stopping by!</h3>
     </div>
   );
 }
