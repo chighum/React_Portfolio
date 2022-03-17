@@ -97,10 +97,6 @@ function Contact() {
                 Submit
               </button>
             </form>
-            <p>
-              This form doesn't actually work yet, you can use the links at the
-              bottom to get in touch with me for now
-            </p>
           </div>
         </div>
       </div>
