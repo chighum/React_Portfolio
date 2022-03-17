@@ -16,9 +16,10 @@ function Home() {
             Denver, Colorado.
           </h5>
           <br />
+          <h5>I love to find creative solutions to complex problems</h5>
+          <br />
           <h5>
-            I love to solve problems and learn new coding frameworks or entire
-            languages.
+            I also love to learn new coding frameworks or entire languages.
           </h5>
           <br />
           <h5>
