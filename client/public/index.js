@@ -1,14 +1,11 @@
-const form = document.getElementById("contact-form");
-console.log(form);
-window.addEventListener("DOMContentLoaded", (event) => {
-  console.log("DOM fully loaded and parsed");
-});
-
-const formEvent = form.addEventListener("submit", (event) => {
-  event.preventDefault();
-  let mail = new FormData(form);
-  sendMail(mail);
-});
+window.onload = function () {
+  const form = document.getElementById("contact-form");
+  const formEvent = form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    let mail = new FormData(form);
+    sendMail(mail);
+  });
+};
 
 const sendMail = (mail) => {
   fetch("/send", {
