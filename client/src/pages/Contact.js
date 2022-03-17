@@ -76,7 +76,7 @@ function Contact() {
                 />
                 <label for="subject">Subject</label>
               </div>
-              <div className="form-floating">
+              <div className="form-floating mb-3">
                 <textarea
                   name="message"
                   id="message"
@@ -85,6 +85,7 @@ function Contact() {
                   rows="5"
                   placeholder="Type your message here"
                   required
+                  height="200"
                 ></textarea>
                 <label for="message">Type your message here</label>
               </div>
