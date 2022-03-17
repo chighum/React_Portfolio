@@ -59,6 +59,9 @@ function Contact() {
                 placeholder="Email"
                 required
               />
+              <div id="emailHelp" class="form-text">
+                I'll never share your email with anyone else.
+              </div>
             </div>
           </div>
         </div>
@@ -72,15 +75,18 @@ function Contact() {
             required
           />
         </div>
-        <input
-          name="message"
-          id="message"
-          class="form-control"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="Type your message here"
-          required
-        />
+        <div class="form-group">
+          <input
+            name="message"
+            id="message"
+            class="form-control"
+            onChange={handleInputChange}
+            type="text"
+            rows="5"
+            placeholder="Type your message here"
+            required
+          />
+        </div>
         <button
           type="button"
           onClick={handleFormSubmit}
