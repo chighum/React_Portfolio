@@ -10,7 +10,7 @@ const projects = [
     deployed: "https://raining-cats-and-dogs.herokuapp.com/",
   },
   {
-    name: "Happy Camper",
+    name: "HappyCamper",
     id: "#HappyCamper",
     description:
       "Created using Handlebars.js, MySQL, and Bulma Framework, this application will find all National Park Campgrounds in Colorado and display information for them. You've decided the weather is too bad in the area to go camping? Check out a list of our favorite outdoor adventure books, and see if something catches your eye!",
@@ -31,7 +31,7 @@ const projects = [
       "https://kerryeames-vris.github.io/ClassProject1-FeedMe/index.html",
   },
   {
-    name: "Text Editor",
+    name: "TextEditor",
     id: "#TextEditor",
     description:
       "This was a homework assignment for the DU Coding Bootcamp that required me to take an existing text editor app and add functionality for it to work as a PWA and function offline. This was done by implementing methods for storing and getting data from an IndexedDB database using the idb package, registering a service worker, and creating a manifest.json file.",

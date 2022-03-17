@@ -27,13 +27,16 @@ function Project() {
                 className="modal fade"
                 id={project.name}
                 tabIndex="-1"
-                aria-labelledby={project.name}
+                aria-labelledby="exampleModalLabel"
                 aria-hidden="true"
               >
                 <div className="modal-dialog modal-dialog-centered">
                   <div className="modal-content">
                     <div className="modal-header">
-                      <h5 className="modal-title text-center" id={project.name}>
+                      <h5
+                        className="modal-title text-center"
+                        id="exampleModalLabel"
+                      >
                         {project.name}
                       </h5>
                       <button
