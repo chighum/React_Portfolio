@@ -39,34 +39,32 @@ function Contact() {
               action="send"
               enctype="multipart/form-data"
             >
-              <div className="form-floating mb-3">
-                <div className="row">
-                  <div className="col-md-6">
-                    <input
-                      name="name"
-                      id="name"
-                      className="form-control"
-                      onChange={handleInputChange}
-                      type="text"
-                      placeholder="Name"
-                      required
-                    />
-                    <label for="name">Name</label>
-                  </div>
-                  <div className="col-md-6">
-                    <input
-                      name="email"
-                      id="email"
-                      className="form-control"
-                      onChange={handleInputChange}
-                      type="email"
-                      placeholder="Email"
-                      required
-                    />
-                    <label for="email">Email</label>
-                    <div id="emailHelp" class="form-text">
-                      I'll never share your email with anyone else.
-                    </div>
+              <div className="row">
+                <div className="col-md-6 form-floating">
+                  <input
+                    name="name"
+                    id="name"
+                    className="form-control"
+                    onChange={handleInputChange}
+                    type="text"
+                    placeholder="Name"
+                    required
+                  />
+                  <label for="name">Name</label>
+                </div>
+                <div className="col-md-6 form-floating">
+                  <input
+                    name="email"
+                    id="email"
+                    className="form-control"
+                    onChange={handleInputChange}
+                    type="email"
+                    placeholder="Email"
+                    required
+                  />
+                  <label for="email">Email</label>
+                  <div id="emailHelp" class="form-text">
+                    I'll never share your email with anyone else.
                   </div>
                 </div>
               </div>
