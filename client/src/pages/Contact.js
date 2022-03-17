@@ -40,29 +40,33 @@ function Contact() {
               enctype="multipart/form-data"
             >
               <div className="row">
-                <div className="col-md-6 form-floating">
-                  <input
-                    name="name"
-                    id="name"
-                    className="form-control"
-                    onChange={handleInputChange}
-                    type="text"
-                    placeholder="Name"
-                    required
-                  />
-                  <label for="name">Name</label>
+                <div className="col-md-6">
+                  <div className="form-floating">
+                    <input
+                      name="name"
+                      id="name"
+                      className="form-control"
+                      onChange={handleInputChange}
+                      type="text"
+                      placeholder="Name"
+                      required
+                    />
+                    <label for="name">Name</label>
+                  </div>
                 </div>
-                <div className="col-md-6 form-floating">
-                  <input
-                    name="email"
-                    id="email"
-                    className="form-control"
-                    onChange={handleInputChange}
-                    type="email"
-                    placeholder="Email"
-                    required
-                  />
-                  <label for="email">Email</label>
+                <div className="col-md-6">
+                  <div className="form-floating">
+                    <input
+                      name="email"
+                      id="email"
+                      className="form-control"
+                      onChange={handleInputChange}
+                      type="email"
+                      placeholder="Email"
+                      required
+                    />
+                    <label for="email">Email</label>
+                  </div>
                 </div>
               </div>
               <div className="form-floating my-3">
