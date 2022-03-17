@@ -1,5 +1,5 @@
 const form = document.getElementById("contact-form");
-
+console.log(form);
 window.addEventListener("DOMContentLoaded", (event) => {
   console.log("DOM fully loaded and parsed");
 });
