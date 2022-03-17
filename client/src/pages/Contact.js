@@ -85,15 +85,11 @@ function Contact() {
                   rows="5"
                   placeholder="Type your message here"
                   required
-                  height="200"
+                  height="200px"
                 ></textarea>
                 <label for="message">Type your message here</label>
               </div>
-              <button
-                type="button"
-                onClick={handleFormSubmit}
-                onChange={handleInputChange}
-              >
+              <button type="submit" value="submit" className="btn">
                 Submit
               </button>
             </form>
