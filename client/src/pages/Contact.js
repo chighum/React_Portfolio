@@ -28,77 +28,83 @@ function Contact() {
 
   return (
     <div>
-      <h1>Fill out the form to contact me:</h1>
-      <form
-        className="form"
-        id="contact-form"
-        method="POST"
-        action="send"
-        enctype="multipart/form-data"
-      >
-        <div class="form-group">
-          <div class="row">
-            <div class="col-md-6">
-              <input
-                name="name"
-                id="name"
-                class="form-control"
-                onChange={handleInputChange}
-                type="text"
-                placeholder="Name"
-                required
-              />
-            </div>
-            <div class="col-md-6">
-              <input
-                name="email"
-                id="email"
-                class="form-control"
-                onChange={handleInputChange}
-                type="email"
-                placeholder="Email"
-                required
-              />
-              <div id="emailHelp" class="form-text">
-                I'll never share your email with anyone else.
+      <div className="container">
+        <h1>Fill out the form to contact me:</h1>
+        <div className="row">
+          <div className="col-md-12">
+            <form
+              className="form"
+              id="contact-form"
+              method="POST"
+              action="send"
+              enctype="multipart/form-data"
+            >
+              <div className="form-group">
+                <div className="row">
+                  <div className="col-md-6">
+                    <input
+                      name="name"
+                      id="name"
+                      className="form-control"
+                      onChange={handleInputChange}
+                      type="text"
+                      placeholder="Name"
+                      required
+                    />
+                  </div>
+                  <div className="col-md-6">
+                    <input
+                      name="email"
+                      id="email"
+                      className="form-control"
+                      onChange={handleInputChange}
+                      type="email"
+                      placeholder="Email"
+                      required
+                    />
+                    <div id="emailHelp" class="form-text">
+                      I'll never share your email with anyone else.
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
+              <div className="form-group">
+                <input
+                  placeholder="Subject"
+                  id="subject"
+                  name="subject"
+                  type="text"
+                  className="form-control"
+                  required
+                />
+              </div>
+              <div className="form-group">
+                <input
+                  name="message"
+                  id="message"
+                  className="form-control"
+                  onChange={handleInputChange}
+                  type="text"
+                  rows="5"
+                  placeholder="Type your message here"
+                  required
+                />
+              </div>
+              <button
+                type="button"
+                onClick={handleFormSubmit}
+                onChange={handleInputChange}
+              >
+                Submit
+              </button>
+            </form>
+            <p>
+              This form doesn't actually work yet, you can use the links at the
+              bottom to get in touch with me for now
+            </p>
           </div>
         </div>
-        <div class="form-group">
-          <input
-            placeholder="Subject"
-            id="subject"
-            name="subject"
-            type="text"
-            class="form-control"
-            required
-          />
-        </div>
-        <div class="form-group">
-          <input
-            name="message"
-            id="message"
-            class="form-control"
-            onChange={handleInputChange}
-            type="text"
-            rows="5"
-            placeholder="Type your message here"
-            required
-          />
-        </div>
-        <button
-          type="button"
-          onClick={handleFormSubmit}
-          onChange={handleInputChange}
-        >
-          Submit
-        </button>
-      </form>
-      <p>
-        This form doesn't actually work yet, you can use the links at the bottom
-        to get in touch with me for now
-      </p>
+      </div>
     </div>
   );
 }
