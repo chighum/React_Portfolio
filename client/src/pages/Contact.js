@@ -39,7 +39,7 @@ function Contact() {
               action="send"
               enctype="multipart/form-data"
             >
-              <div className="form-group">
+              <div className="form-floating mb-3">
                 <div className="row">
                   <div className="col-md-6">
                     <input
@@ -51,6 +51,7 @@ function Contact() {
                       placeholder="Name"
                       required
                     />
+                    <label for="name">Name</label>
                   </div>
                   <div className="col-md-6">
                     <input
@@ -62,13 +63,14 @@ function Contact() {
                       placeholder="Email"
                       required
                     />
+                    <label for="email">Email</label>
                     <div id="emailHelp" class="form-text">
                       I'll never share your email with anyone else.
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="form-group">
+              <div className="form-floating mb-3">
                 <input
                   placeholder="Subject"
                   id="subject"
@@ -77,8 +79,9 @@ function Contact() {
                   className="form-control"
                   required
                 />
+                <label for="subject">Subject</label>
               </div>
-              <div className="form-group">
+              <div className="form-floating">
                 <input
                   name="message"
                   id="message"
@@ -89,6 +92,7 @@ function Contact() {
                   placeholder="Type your message here"
                   required
                 />
+                <label for="message">Type your message here</label>
               </div>
               <button
                 type="button"
