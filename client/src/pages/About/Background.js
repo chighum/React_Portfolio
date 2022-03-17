@@ -32,9 +32,9 @@ function Background() {
         </div>
         <div className="col-5 mx-5">
           <img
-            src="./images/IMG_1988.jpeg"
-            alt="Photo of Me"
-            style={{ width: 300, height: 400 }}
+            src="./images/Technologies.png"
+            alt="Technologies I know"
+            style={{ width: 300, height: 250 }}
             className="rounded-3 shadow"
           ></img>
         </div>
