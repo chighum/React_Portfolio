@@ -8,7 +8,7 @@ function Background() {
     <div>
       <h1>About Me</h1>
       <div className="row">
-        <div className="col-4 mx-5 align-self-center">
+        <div className="col-3 mx-5 align-self-center">
           <h3>Background</h3>
           <p>
             I was born and raised in Denver, Colorado where I lived my entire
@@ -20,15 +20,15 @@ function Background() {
             years, and had the time of my life.
           </p>
         </div>
-        <div className="col-4 mx-5">
+        <div className="col-3 mx-5">
           <img
             src="./images/Technologies.png"
             alt="Family Photo"
             style={{ width: 300, height: 250 }}
-            className="rounded-3 shadow"
+            className="rounded-circle shadow"
           ></img>
         </div>
-        <div className="col-4 mx-5">
+        <div className="col-3 mx-5">
           <p>
             Growing up in Denver I have spent a large amount of my time outside.
             Whether I'm playing sports such as lacrosse, soccer, or football, or
