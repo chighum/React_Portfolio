@@ -6,17 +6,17 @@ function Background() {
   });
   return (
     <div>
-      <div className="row">
+      <div className="row mb-5">
         <h1>Background</h1>
         <div className="col-3 mx-5 align-self-center">
           <p>
             I was born and raised in Denver, Colorado where I lived my entire
-            life aside until moving to Austin, Texas to study at the University
-            of Texas. While in Austin I enjoyed lots of live music and good
-            food, and also managed to obtain a B.S. in Petroleum Engineering
-            from the University of Texas along the way. After graduating, I
-            moved to Vail, Colorado in order to be a ski instructor for a few
-            years, and had the time of my life.
+            life aside from four years spent in Austin, Texas to study at the
+            University of Texas. While in Austin I enjoyed lots of live music
+            and good food, and also managed to obtain a B.S. in Petroleum
+            Engineering along the way. After graduating, I moved to Vail,
+            Colorado in order to be a ski instructor for a few years, and had
+            the time of my life.
           </p>
         </div>
         <div className="col-3 mx-5">
