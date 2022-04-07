@@ -23,8 +23,7 @@ function Background() {
           <img
             src="./images/Technologies.png"
             alt="Family Photo"
-            style={{ width: 300, height: 250 }}
-            className="rounded-circle shadow"
+            className="rounded-circle shadow img-fluid"
           ></img>
         </div>
         <div className="col-3 mx-5">
