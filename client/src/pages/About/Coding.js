@@ -6,10 +6,9 @@ function Coding() {
   });
   return (
     <div>
-      <h1>About Me</h1>
+      <h1>Web Development</h1>
       <div className="row">
         <div className="col-5 mx-5">
-          <h3>Selection of technologies:</h3>
           <img
             src="./images/Technologies.png"
             alt="Technologies I know"
@@ -18,7 +17,6 @@ function Coding() {
           ></img>
         </div>
         <div className="col-5 mx-5">
-          <h3>Web Development</h3>
           <p>
             While I am very new to the web development world, I quickly have
             come to appreciate and enjoy many different aspects. I first wanted

@@ -6,10 +6,9 @@ function Background() {
   });
   return (
     <div>
-      <h1>About Me</h1>
       <div className="row">
+        <h1>Background</h1>
         <div className="col-3 mx-5 align-self-center">
-          <h3>Background</h3>
           <p>
             I was born and raised in Denver, Colorado where I lived my entire
             life aside until moving to Austin, Texas to study at the University
