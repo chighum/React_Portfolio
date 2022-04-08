@@ -31,7 +31,7 @@ function Background() {
     <div>
       <div className="row">
         <h1>Background</h1>
-        <div className="col-4 mx-5">
+        <div className="col-4">
           <p>
             I was born and raised in Denver, Colorado where I lived my entire
             life until moving to Austin, Texas to study at the University of
@@ -42,7 +42,7 @@ function Background() {
             years, and had the time of my life.
           </p>
         </div>
-        <div className="col-4 mx-5">
+        <div className="col-4">
           <img
             src="./images/MomAtTexas.jpeg"
             alt="Photos of me with friends and family"
@@ -50,7 +50,7 @@ function Background() {
             id="images"
           ></img>
         </div>
-        <div className="col-4 mx-5">
+        <div className="col-4">
           <p>
             Growing up in Denver I have spent a large amount of my time outside.
             Whether I'm playing sports such as lacrosse, soccer, or football, or
