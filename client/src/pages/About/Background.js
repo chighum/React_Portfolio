@@ -1,7 +1,16 @@
 import React from "react";
 
 let index = 0;
-let images = ["./images/BroncosGame.JPG", "./images/JimmyBuffet.JPG"];
+let images = [
+  "./images/BroncosGame.JPG",
+  "./images/Bailey.JPG",
+  "./images/JimmyBuffet.JPG",
+  "./images/MomAndMk.jpeg",
+  "./images/Instructor.jpeg",
+  "./images/YoungBull.JPG",
+  "./images/SistersAtGraduation.JPG",
+  "./images/SkiingWithTheBoys.JPG",
+];
 
 function rotateImage() {
   index++;
@@ -10,13 +19,14 @@ function rotateImage() {
   }
   document.getElementById("images").src = images[index];
 
-  setTimeout(rotate, 3 * 1000);
+  setTimeout(rotateImage, 3 * 1000);
 }
 
 function Background() {
   React.useEffect(() => {
     document.title = "Background";
   });
+  window.onload = rotateImage;
   return (
     <div>
       <div className="row">
