@@ -46,7 +46,7 @@ function Background() {
           <img
             src="./images/MomAtTexas.jpeg"
             alt="Photos of me with friends and family"
-            className="rounded-5 shadow img-fluid"
+            className="rounded-3 shadow img-fluid"
             id="images"
           ></img>
         </div>
