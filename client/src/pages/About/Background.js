@@ -19,7 +19,7 @@ function rotateImage() {
   }
   document.getElementById("images").src = images[index];
 
-  setTimeout(rotateImage, 3 * 1000);
+  setTimeout(rotateImage, 5000);
 }
 
 function Background() {
@@ -31,7 +31,7 @@ function Background() {
     <div>
       <div className="row">
         <h1>Background</h1>
-        <div className="col-3 mx-5 align-self-center">
+        <div className="col-3 mx-5">
           <p>
             I was born and raised in Denver, Colorado where I lived my entire
             life until moving to Austin, Texas to study at the University of
@@ -44,9 +44,9 @@ function Background() {
         </div>
         <div className="col-3 mx-5">
           <img
-            src="./images/Technologies.png"
+            src="./images/MomAtTexas.jpeg"
             alt="Photos of me with friends and family"
-            className="rounded-circle shadow img-fluid"
+            className="rounded-5 shadow img-fluid"
             id="images"
           ></img>
         </div>
