@@ -31,7 +31,7 @@ function Background() {
     <div>
       <div className="row">
         <h1 className="mb-5">Background</h1>
-        <div className="col-4 ps-3">
+        <div className="col-6 ps-5">
           <p>
             I was born and raised in Denver, Colorado where I lived my entire
             life until moving to Austin, Texas to study at the University of
@@ -41,16 +41,7 @@ function Background() {
             moved to Vail, Colorado in order to be a ski instructor for a few
             years, and had the time of my life.
           </p>
-        </div>
-        <div className="col-4">
-          <img
-            src="./images/MomAtTexas.jpeg"
-            alt="Photos of me with friends and family"
-            className="rounded-3 shadow img-fluid"
-            id="images"
-          ></img>
-        </div>
-        <div className="col-4 pe-3">
+          <br />
           <p>
             Growing up in Denver I have spent a large amount of my time outside.
             Whether I'm playing sports such as lacrosse, soccer, or football, or
@@ -60,6 +51,14 @@ function Background() {
             places I've traveled to around the world include Thailand,
             Patagonia, Tuscany, and New Zealand.
           </p>
+        </div>
+        <div className="col-6 pe-5">
+          <img
+            src="./images/MomAtTexas.jpeg"
+            alt="Photos of me with friends and family"
+            className="rounded-3 shadow img-fluid"
+            id="images"
+          ></img>
         </div>
       </div>
     </div>
