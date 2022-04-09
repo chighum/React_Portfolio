@@ -30,7 +30,7 @@ function Background() {
   return (
     <div>
       <div className="row">
-        <h1>Background</h1>
+        <h1 className="mb-5">Background</h1>
         <div className="col-4 ps-3">
           <p>
             I was born and raised in Denver, Colorado where I lived my entire
