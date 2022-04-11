@@ -5,7 +5,7 @@ import "../styles/Header.css";
 
 function Header() {
   return (
-    <header className="navbar fixed-top">
+    <header className="navbar navbar-expand fixed-top">
       <a className="nav-link ms-3" href="/">
         <img src={logo} alt="Logo I made on favicon.io" id="lightLogo"></img>
       </a>
