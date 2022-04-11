@@ -2,6 +2,21 @@
   height: 50px;
 }
 
-header {
+nav {
   background-color: #203274;
+}
+
+span {
+  color: #e7e1da;
+}
+
+nav a:hover {
+  border-style: solid;
+  border-color: #e7e1da;
+  border-radius: 15px;
+  border-width: thin;
+}
+
+.navbar .dropdown-toggle::after {
+  color: #e7e1da;
 }
