@@ -21,6 +21,7 @@ span {
   color: #e7e1da;
 }
 
-.navbar-toggler-icon {
+.navbar-icon {
   color: #e7e1da;
+  border-style: none;
 }

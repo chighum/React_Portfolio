@@ -10,18 +10,20 @@ function Header() {
         <a className="nav-link ms-3 px-3" href="/">
           <img src={logo} alt="Logo I made on favicon.io" id="lightLogo"></img>
         </a>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-icon">
+            <FaBars />
+          </span>
+        </button>
         <div className="d-flex">
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <div className="navbar-nav me-3">
               <div className="dropdown">
