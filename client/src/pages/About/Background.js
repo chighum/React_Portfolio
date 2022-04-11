@@ -46,9 +46,9 @@ function Background() {
             Growing up in Denver I have spent a large amount of my time outside.
             Whether I'm playing sports such as lacrosse, soccer, or football, or
             spending time in the mountains skiing, fishing, hiking, or camping,
-            I still cannot get enough of the outdoors. I also love to get out of
-            the state and travel the world when I can. Some of my favorite
-            places I've traveled to around the world include Thailand,
+            I still spend the majority of my time outdoors. I also love to get
+            out of the state and travel the world when I can. Some of my
+            favorite places I've traveled to around the world include Thailand,
             Patagonia, Tuscany, and New Zealand.
           </p>
         </div>
