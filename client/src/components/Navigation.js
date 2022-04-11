@@ -3,7 +3,7 @@ import "../styles/Navigation.css";
 
 function Navigation() {
   return (
-    <nav className="me-2">
+    <div>
       <button
         class="navbar-toggler"
         type="button"
@@ -53,7 +53,7 @@ function Navigation() {
           <span>Resume</span>
         </a>
       </div>
-    </nav>
+    </div>
   );
 }
 
