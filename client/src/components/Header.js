@@ -20,7 +20,7 @@ function Header() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-icon">
+            <span className="navbar-toggler-icon">
               <FaBars />
             </span>
           </button>
