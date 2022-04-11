@@ -5,7 +5,7 @@ import { HiPhoneOutgoing, HiMail } from "react-icons/hi";
 
 function Footer() {
   return (
-    <footer className="navbar fixed-bottom">
+    <footer className="navbar navbar-dark fixed-bottom">
       <a
         className="nav-link ms-5"
         href="https://github.com/chighum"
