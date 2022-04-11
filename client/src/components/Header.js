@@ -23,48 +23,46 @@ function Header() {
             <FaBars />
           </span>
         </button>
-        <div className="d-flex">
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <div className="navbar-nav me-3">
-              <div className="dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="/"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  <span>About Me</span>
-                </a>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a className="dropdown-item" href="/background">
-                      Background
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="/coding">
-                      Web Development
-                    </a>
-                  </li>
-                  {/* <li>
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div className="navbar-nav me-3">
+            <div className="dropdown">
+              <a
+                className="nav-link dropdown-toggle"
+                href="/"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <span>About Me</span>
+              </a>
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a className="dropdown-item" href="/background">
+                    Background
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="/coding">
+                    Web Development
+                  </a>
+                </li>
+                {/* <li>
                     <a className="dropdown-item" href="/hobbies">
                       Photos
                     </a>
                   </li> */}
-                </ul>
-              </div>
-              <a className="nav-link" href="/projects">
-                <span>Projects</span>
-              </a>
-              <a className="nav-link" href="/contact">
-                <span>Contact Me</span>
-              </a>
-              <a className="nav-link" href="/resume">
-                <span>Resume</span>
-              </a>
+              </ul>
             </div>
+            <a className="nav-link" href="/projects">
+              <span>Projects</span>
+            </a>
+            <a className="nav-link" href="/contact">
+              <span>Contact Me</span>
+            </a>
+            <a className="nav-link" href="/resume">
+              <span>Resume</span>
+            </a>
           </div>
         </div>
       </div>
