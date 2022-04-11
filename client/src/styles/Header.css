@@ -10,7 +10,7 @@ span {
   color: #e7e1da;
 }
 
-nav a:hover {
+.nav-link:hover {
   border-style: solid;
   border-color: #e7e1da;
   border-radius: 15px;

@@ -6,7 +6,7 @@ function Header() {
   return (
     <nav className="navbar navbar-expand-md fixed-top">
       <div className="container-fluid">
-        <a className="navbar-brand ms-3" href="/">
+        <a className="nav-link ms-3 px-3" href="/">
           <img src={logo} alt="Logo I made on favicon.io" id="lightLogo"></img>
         </a>
         <button
@@ -21,7 +21,7 @@ function Header() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <div className="navbar-nav d-flex">
+          <div className="navbar-nav">
             <a
               className="nav-link dropdown-toggle"
               href="/"
