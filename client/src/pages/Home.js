@@ -32,8 +32,7 @@ function Home() {
           <img
             src="./images/MeAndElephant.jpeg"
             alt="Photo of Me"
-            style={{ width: 300, height: 400 }}
-            className="rounded-3 shadow"
+            className="img-fluid rounded-3 shadow"
           ></img>
         </div>
       </div>
