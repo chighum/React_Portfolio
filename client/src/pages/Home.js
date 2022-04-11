@@ -30,7 +30,7 @@ function Home() {
         </div>
         <div className="col-5 mx-5">
           <img
-            src="./images/IMG_1988.jpeg"
+            src="./images/MeAndElephant.jpeg"
             alt="Photo of Me"
             style={{ width: 300, height: 400 }}
             className="rounded-3 shadow"

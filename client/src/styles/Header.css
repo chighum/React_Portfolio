@@ -20,3 +20,7 @@ span {
 .navbar .dropdown-toggle::after {
   color: #e7e1da;
 }
+
+.navbar-toggler-icon {
+  color: #e7e1da;
+}
