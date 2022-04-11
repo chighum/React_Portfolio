@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../faviconio-logo/logo.png";
+import { FaBars } from "react-icons/fa";
 import "../styles/Header.css";
 
 function Header() {
@@ -19,10 +20,12 @@ function Header() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className="navbar-icon">
+              <FaBars />
+            </span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <div className="navbar-nav">
+            <div className="navbar-nav me-3">
               <div className="dropdown">
                 <a
                   className="nav-link dropdown-toggle"
@@ -46,10 +49,10 @@ function Header() {
                     </a>
                   </li>
                   {/* <li>
-          <a className="dropdown-item" href="/hobbies">
-            Photos
-          </a>
-        </li> */}
+                    <a className="dropdown-item" href="/hobbies">
+                      Photos
+                    </a>
+                  </li> */}
                 </ul>
               </div>
               <a className="nav-link" href="/projects">
