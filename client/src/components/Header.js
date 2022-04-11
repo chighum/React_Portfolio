@@ -20,11 +20,8 @@ function Header() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div
-          className="collapse navbar-collapse d-flex"
-          id="navbarSupportedContent"
-        >
-          <div className="navbar-nav">
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div className="navbar-nav d-flex">
             <a
               className="nav-link dropdown-toggle"
               href="/"
