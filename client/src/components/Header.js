@@ -23,33 +23,35 @@ function Header() {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <div className="navbar-nav">
-              <a
-                className="nav-link dropdown-toggle"
-                href="/"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                <span>About Me</span>
-              </a>
-              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a className="dropdown-item" href="/background">
-                    Background
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="/coding">
-                    Web Development
-                  </a>
-                </li>
-                {/* <li>
+              <div className="dropdown">
+                <a
+                  className="nav-link dropdown-toggle"
+                  href="/"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span>About Me</span>
+                </a>
+                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a className="dropdown-item" href="/background">
+                      Background
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/coding">
+                      Web Development
+                    </a>
+                  </li>
+                  {/* <li>
           <a className="dropdown-item" href="/hobbies">
             Photos
           </a>
         </li> */}
-              </ul>
+                </ul>
+              </div>
               <a className="nav-link" href="/projects">
                 <span>Projects</span>
               </a>
