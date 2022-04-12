@@ -14,3 +14,33 @@
   background-color: #e7e1da !important;
   color: #203274 !important;
 }
+
+.modalBtn {
+  position: relative;
+}
+
+.modalBtn .card-image-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  margin: 0;
+  background: linear-gradient(#b5c1f5cc, #203274);
+  display: none;
+}
+
+.modalBtn:hover .card-image-overlay {
+  display: block;
+}
+
+.modalBtn .card-image-overtop {
+  left: 0;
+  top: 0;
+  margin: 0;
+  background-color: #203274;
+  position: absolute;
+}
+.modalBtn:hover .card-image-overtop {
+  display: block;
+}
