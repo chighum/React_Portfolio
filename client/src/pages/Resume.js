@@ -1,5 +1,4 @@
 import React from "react";
-import { FaFileDownload } from "react-icons/fa";
 import "../styles/Resume.css";
 
 function Resume() {
@@ -7,20 +6,32 @@ function Resume() {
     document.title = "Resume";
   });
   return (
-    <div className="row justify-content-center">
-      <div className="col-6 resume">
-        <div id="resumeImg">
-          <a
-            href="./images/CJH_Resume.pdf"
-            role="button"
-            target="_blank"
-            download
-          >
-            <img src="./images/CJH_Resume.png" alt="My Resume"></img>
-            <span className="overlay">
-              <FaFileDownload size="900px" />
-            </span>
-          </a>
+    <div className="container-fluid">
+      <div className="row justify-content-center">
+        <div className="col-6 resume">
+          <div id="resumeImg">
+            <a
+              href="./images/CJH_Resume.pdf"
+              role="button"
+              target="_blank"
+              download
+            >
+              <div className="card">
+                <img
+                  className="img-fluid card-img"
+                  src="./images/CJH_Resume.png"
+                  alt="My Resume"
+                ></img>
+                <div>
+                  <img
+                    className="img-fluid card-img-overlay"
+                    src="./images/download-pdf.png"
+                    alt="Download Icon"
+                  ></img>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>

@@ -9,6 +9,13 @@ function Home() {
     <div className="container">
       <h3 className="mb-5">Welcome!</h3>
       <div className="row">
+        <div className="col-sm-12 col-lg-6 ">
+          <img
+            src="./images/Elephant.png"
+            alt="Elephant and me in Thailand"
+            className="img-fluid rounded-circle shadow"
+          ></img>
+        </div>
         <div className="col-sm-12 col-lg-6 align-self-center text-start">
           <h5>
             My name is Charlie Highum, and I am a Full-Stack Web Developer in
@@ -26,13 +33,6 @@ function Home() {
             your interest. If so, please feel free to get in touch!
           </h5>
           <br />
-        </div>
-        <div className="col-sm-12 col-lg-6 ">
-          <img
-            src="./images/Elephant.png"
-            alt="Elephant and me in Thailand"
-            className="img-fluid rounded-circle shadow"
-          ></img>
         </div>
       </div>
     </div>

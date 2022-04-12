@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import "../styles/Contact.css";
 
 function Contact() {
   useEffect(() => {
@@ -91,7 +92,7 @@ function Contact() {
               ></textarea>
               <label for="message">Message</label>
             </div>
-            <button type="submit" value="submit" className="btn">
+            <button type="submit" value="submit" className="btn submit-btn">
               Submit
             </button>
           </form>

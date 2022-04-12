@@ -1,0 +1,17 @@
+.submit-btn {
+  border-style: solid;
+  border-color: #203274;
+  border-radius: 15px;
+  border-width: thin;
+  background-color: #e7e1da;
+  color: #203274;
+}
+
+.submit-btn:hover {
+  border-style: solid;
+  border-color: #203274;
+  border-radius: 15px;
+  border-width: thin;
+  background-color: #203274;
+  color: #e7e1da;
+}
