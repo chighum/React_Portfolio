@@ -27,14 +27,14 @@ function Background() {
   return (
     <div className="container-xxl">
       <h1 className="mb-5">Background</h1>
-      <div className="row justify-content-between">
-        <div className="col-sm-12 col-lg-6">
+      <div className="row">
+        <div className="col-md-6">
           <p>
             I was born and raised in Denver, Colorado where I lived my entire
             life until moving to Austin, Texas to study at the University of
             Texas. While in Austin I enjoyed lots of live music, good food, a
             perpetually over-hyped football team, and also managed to obtain a
-            B.S. in Petroleum Engineering along the way0. After graduating, I
+            B.S. in Petroleum Engineering along the way. After graduating, I
             moved to Vail, Colorado in order to be a ski instructor for a few
             years, and had the time of my life.
           </p>
@@ -49,7 +49,7 @@ function Background() {
             Patagonia, Tuscany, and New Zealand.
           </p>
         </div>
-        <div className="col-sm-12 col-lg-6 align-self-center">
+        <div className="col-md-6">
           <img
             src="./images/Elephant.png"
             alt="Photos of me with friends and family"

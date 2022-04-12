@@ -27,77 +27,75 @@ function Contact() {
   };
 
   return (
-    <div>
-      <div className="container">
-        <h1>Fill out the form to contact me:</h1>
-        <div className="row">
-          <div className="col-md-12">
-            <form
-              className="form"
-              id="contact-form"
-              method="POST"
-              action="send"
-              enctype="multipart/form-data"
-            >
-              <div className="row">
-                <div className="col-md-6">
-                  <div className="form-floating">
-                    <input
-                      name="name"
-                      id="name"
-                      className="form-control"
-                      onChange={handleInputChange}
-                      type="text"
-                      placeholder="Name"
-                      required
-                    />
-                    <label for="name">Name</label>
-                  </div>
-                </div>
-                <div className="col-md-6">
-                  <div className="form-floating">
-                    <input
-                      name="email"
-                      id="email"
-                      className="form-control"
-                      onChange={handleInputChange}
-                      type="email"
-                      placeholder="Email"
-                      required
-                    />
-                    <label for="email">Email</label>
-                  </div>
+    <div className="container">
+      <h1 className="mb-5">Fill out the form to contact me:</h1>
+      <div className="row">
+        <div className="col-md-12">
+          <form
+            className="form"
+            id="contact-form"
+            method="POST"
+            action="send"
+            enctype="multipart/form-data"
+          >
+            <div className="row">
+              <div className="col-md-6">
+                <div className="form-floating">
+                  <input
+                    name="name"
+                    id="name"
+                    className="form-control"
+                    onChange={handleInputChange}
+                    type="text"
+                    placeholder="Name"
+                    required
+                  />
+                  <label for="name">Name</label>
                 </div>
               </div>
-              <div className="form-floating my-3">
-                <input
-                  placeholder="Subject"
-                  id="subject"
-                  name="subject"
-                  type="text"
-                  className="form-control"
-                  required
-                />
-                <label for="subject">Subject</label>
+              <div className="col-md-6">
+                <div className="form-floating">
+                  <input
+                    name="email"
+                    id="email"
+                    className="form-control"
+                    onChange={handleInputChange}
+                    type="email"
+                    placeholder="Email"
+                    required
+                  />
+                  <label for="email">Email</label>
+                </div>
               </div>
-              <div className="form-floating mb-3">
-                <textarea
-                  name="message"
-                  id="message"
-                  className="form-control"
-                  onChange={handleInputChange}
-                  rows="5"
-                  placeholder="Type your message here"
-                  required
-                  height="200px"
-                ></textarea>
-                <label for="message">Type your message here</label>
-              </div>
-              <button type="submit" value="submit" className="btn">
-                Submit
-              </button>
-            </form>
-          </div>
+            </div>
+            <div className="form-floating my-3">
+              <input
+                placeholder="Subject"
+                id="subject"
+                name="subject"
+                type="text"
+                className="form-control"
+                required
+              />
+              <label for="subject">Subject</label>
+            </div>
+            <div className="form-floating mb-3">
+              <textarea
+                name="message"
+                id="message"
+                className="form-control"
+                onChange={handleInputChange}
+                rows="5"
+                placeholder="Type your message here"
+                required
+                height="200px"
+              ></textarea>
+              <label for="message">Type your message here</label>
+            </div>
+            <button type="submit" value="submit" className="btn">
+              Submit
+            </button>
+          </form>
         </div>
       </div>
     </div>

@@ -33,17 +33,17 @@ function Header() {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <span>About Me</span>
+                <span className="span">About Me</span>
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
                   <a className="dropdown-item" href="/background">
-                    Background
+                    <span className="span">Background</span>
                   </a>
                 </li>
                 <li>
                   <a className="dropdown-item" href="/coding">
-                    Web Development
+                    <span className="span">Web Development</span>
                   </a>
                 </li>
                 {/* <li>
@@ -54,13 +54,13 @@ function Header() {
               </ul>
             </div>
             <a className="nav-link" href="/projects">
-              <span>Projects</span>
+              <span className="span">Projects</span>
             </a>
             <a className="nav-link" href="/contact">
-              <span>Contact Me</span>
+              <span className="span">Contact Me</span>
             </a>
             <a className="nav-link" href="/resume">
-              <span>Resume</span>
+              <span className="span">Resume</span>
             </a>
           </div>
         </div>

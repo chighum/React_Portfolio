@@ -5,11 +5,11 @@ import "../styles/Project.css";
 // this will generate each individual project
 function Project() {
   return (
-    <div className="col-9">
+    <div className="col-12">
       <div className="row">
         {projects.map((project) => {
           return (
-            <div className="col-6 mb-5" key={project.name}>
+            <div className="col-lg-6 col-md-12 mb-5" key={project.name}>
               <button
                 type="button"
                 className="btn shadow modalBtn"

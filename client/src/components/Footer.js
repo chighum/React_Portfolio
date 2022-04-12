@@ -12,7 +12,7 @@ function Footer() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <span>
+        <span className="span">
           <FaGithub size="30px" />
         </span>
       </a>
@@ -22,17 +22,17 @@ function Footer() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <span>
+        <span className="span">
           <FaLinkedin size="30px" />
         </span>
       </a>
       <a className="nav-link" href="mailto:chighum41@gmail.com">
-        <span>
+        <span className="span">
           <HiMail size="30px" />
         </span>
       </a>
       <a className="nav-link me-5" href="tel:1-303-775-6820">
-        <span>
+        <span className="span">
           <HiPhoneOutgoing size="30px" />
         </span>
       </a>

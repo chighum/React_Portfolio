@@ -5,18 +5,17 @@ function Coding() {
     document.title = "Web Development";
   });
   return (
-    <div>
+    <div className="container-fluid">
       <h1 className="mb-5">Web Development</h1>
       <div className="row">
-        <div className="col-5 mx-5">
+        <div className="col-md-6">
           <img
             src="./images/Technologies.png"
             alt="Technologies I know"
-            style={{ width: 300, height: 250 }}
-            className="rounded-3 shadow"
+            className="rounded-3 shadow img-fluid"
           ></img>
         </div>
-        <div className="col-5 mx-5">
+        <div className="col-md-6 align-self-center">
           <p>
             While studying Petroleum Engineering at UT, I had very little
             exposure to programming aside from a few courses on R and Matlab.

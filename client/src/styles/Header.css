@@ -2,23 +2,22 @@
   height: 50px;
 }
 
-nav {
-  background-color: #203274;
+nav,
+.dropdown-menu {
+  background-color: #203274 !important;
 }
 
-span {
+.span {
   color: #e7e1da;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.dropdown-item:hover {
   border-style: solid;
   border-color: #e7e1da;
   border-radius: 15px;
   border-width: thin;
-}
-
-.navbar .dropdown-toggle::after {
-  color: #e7e1da;
+  background-color: #203274 !important;
 }
 
 .navbar-icon {
