@@ -12,7 +12,6 @@ function Header() {
         </a>
         <a
           className="navbar-toggler"
-          role="button"
           data-bs-toggle="collapse"
           href="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
