@@ -8,7 +8,7 @@ function Resume() {
   return (
     <div className="container-fluid">
       <div className="row justify-content-center">
-        <div className="col-6 resume">
+        <div className="col-sm-10 col-md-8 col-lg-6 resume">
           <div id="resumeImg">
             <a
               href="./images/CJH_Resume.pdf"
