@@ -11,6 +11,7 @@ function Header() {
           <img src={logo} alt="Logo I made on favicon.io" id="lightLogo"></img>
         </a>
         <a
+          className="nav-toggler"
           data-bs-toggle="collapse"
           href="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
