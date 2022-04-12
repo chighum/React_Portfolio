@@ -1,8 +1,10 @@
-.modal-body,
-.modal-header,
-.modal-footer,
+.modal-content {
+  background: linear-gradient(#203274, #b5c1f5cc) !important;
+  color: #e7e1da !important;
+}
+
 .modal-footer a {
-  background-color: #203274;
+  background: linear-gradient(#b5c1f5cc, #203274) !important;
   color: #e7e1da !important;
 }
 
@@ -11,7 +13,7 @@
 }
 
 .modal-footer a:hover {
-  background-color: #e7e1da !important;
+  background: #e7e1da !important;
   color: #203274 !important;
 }
 
@@ -35,12 +37,59 @@
 }
 
 .modalBtn .card-image-overtop {
-  left: 0;
-  top: 0;
+  left: -25px;
+  top: -25px;
   margin: 0;
-  background-color: #203274;
   position: absolute;
 }
 .modalBtn:hover .card-image-overtop {
   display: block;
+}
+
+.card-title {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #e7e1da;
+}
+
+.card-image {
+  height: 330px;
+  width: 550px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .card-image {
+    height: 300px;
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .card-image {
+    height: 250px;
+    width: 417px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .card-image {
+    height: 200px;
+    width: 333px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .card-image {
+    height: 180px;
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .card-image {
+    height: 160px;
+    width: 270px;
+  }
 }

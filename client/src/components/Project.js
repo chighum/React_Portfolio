@@ -20,19 +20,20 @@ function Project() {
                   <img
                     src={project.image}
                     alt={project.name}
-                    style={{ width: 500, height: 300 }}
                     className="rounded-3 shadow project-image card-image"
                   ></img>
-                  <div className="card-image-overtop">
-                    <img
-                      className="card-image-overlay-icon rounded-circle"
-                      src="./images/ClickMeIcon.png"
-                      alt="Click Me Icon"
-                      style={{ height: 75, width: 75 }}
-                    ></img>
-                  </div>
                   <div className="card-image-overlay">
-                    <h3 className="card-title">{project.space_name}</h3>
+                    <div className="card-image-overtop">
+                      <img
+                        className="card-image-overlay-icon rounded-circle"
+                        src="./images/ClickMeIcon.png"
+                        alt="Click Me Icon"
+                        style={{ height: 75, width: 75 }}
+                      ></img>
+                    </div>
+                    <div className="card-title">
+                      <h3>{project.space_name}</h3>
+                    </div>
                   </div>
                 </div>
               </button>
