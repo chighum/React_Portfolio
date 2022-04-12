@@ -10,7 +10,8 @@ span {
   color: #e7e1da;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.navbar-toggler:hover {
   border-style: solid;
   border-color: #e7e1da;
   border-radius: 15px;
