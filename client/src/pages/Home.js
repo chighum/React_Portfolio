@@ -7,9 +7,9 @@ function Home() {
 
   return (
     <div className="container">
-      <h3 className="mb-5">Welcome!</h3>
+      <h3 className="mb-3">Welcome!</h3>
       <div className="row">
-        <div className="col-sm-12 col-lg-6 ">
+        <div className="col-sm-12 col-lg-6 mb-3">
           <img
             src="./images/Elephant.png"
             alt="Elephant and me in Thailand"

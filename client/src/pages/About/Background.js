@@ -28,7 +28,7 @@ function Background() {
     <div className="container-xxl">
       <h3 className="mb-3">Background</h3>
       <div className="row">
-        <div className="col-md-6">
+        <div className="col-md-6 mb-3">
           <p>
             I was born and raised in Denver, Colorado where I lived my entire
             life until moving to Austin, Texas to study at the University of

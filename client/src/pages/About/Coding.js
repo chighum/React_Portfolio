@@ -8,7 +8,7 @@ function Coding() {
     <div className="container-fluid">
       <h3 className="mb-3">Web Development</h3>
       <div className="row">
-        <div className="col-md-6">
+        <div className="col-md-6 mb-3">
           <img
             src="./images/Technologies.png"
             alt="Technologies I know"
