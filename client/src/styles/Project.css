@@ -9,3 +9,8 @@
 .modalBtn {
   background-color: #203274 !important;
 }
+
+.modal-footer a:hover {
+  background-color: #e7e1da !important;
+  color: #203274 !important;
+}

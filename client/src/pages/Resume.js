@@ -1,4 +1,6 @@
 import React from "react";
+import { FaFileDownload } from "react-icons/fa";
+import "../styles/Resume.css";
 
 function Resume() {
   React.useEffect(() => {
@@ -6,31 +8,17 @@ function Resume() {
   });
   return (
     <div>
-      <div className="mb-3">
-        <a
-          href="./images/CJH_Resume.pdf"
-          role="button"
-          target="_blank"
-          className="downloadbtn p-2"
-          download
-        >
-          Download as PDF
-        </a>
-      </div>
-      <div>
-        <a
-          href="./images/CJH_Resume.pdf"
-          role="button"
-          target="_blank"
-          download
-        >
-          <img
-            src="./images/CJH_Resume.png"
-            alt="My Resume"
-            style={{ height: 700 }}
-          ></img>
-        </a>
-      </div>
+      <a href="./images/CJH_Resume.pdf" role="button" target="_blank" download>
+        <img
+          id="resume"
+          src="./images/CJH_Resume.png"
+          alt="My Resume"
+          style={{ height: 700 }}
+        ></img>
+        <span>
+          <FaFileDownload />
+        </span>
+      </a>
     </div>
   );
 }

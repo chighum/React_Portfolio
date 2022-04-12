@@ -6,10 +6,6 @@ a {
   text-decoration: none !important;
 }
 
-.downloadbtn {
-  color: #203274;
-  border-style: solid;
-  border-color: #203274;
-  border-radius: 15px;
-  border-width: thin;
+.App {
+  text-align: center;
 }

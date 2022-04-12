@@ -28,7 +28,7 @@ function Contact() {
 
   return (
     <div className="container">
-      <h1 className="mb-5">Fill out the form to contact me:</h1>
+      <h3 className="mb-3">I would love to hear from you!</h3>
       <div className="row">
         <div className="col-md-12">
           <form
@@ -39,7 +39,7 @@ function Contact() {
             enctype="multipart/form-data"
           >
             <div className="row">
-              <div className="col-md-6">
+              <div className="col-sm-6 mb-3">
                 <div className="form-floating">
                   <input
                     name="name"
@@ -53,7 +53,7 @@ function Contact() {
                   <label for="name">Name</label>
                 </div>
               </div>
-              <div className="col-md-6">
+              <div className="col-sm-6 mb-3">
                 <div className="form-floating">
                   <input
                     name="email"
@@ -85,16 +85,15 @@ function Contact() {
                 id="message"
                 className="form-control"
                 onChange={handleInputChange}
-                rows="5"
-                placeholder="Type your message here"
+                placeholder="Message"
                 required
-                height="200px"
+                style={{ height: 300 }}
               ></textarea>
-              <label for="message">Type your message here</label>
+              <label for="message">Message</label>
             </div>
-            <button type="submit" value="submit" className="btn">
+            {/* <button type="submit" value="submit" className="btn">
               Submit
-            </button>
+            </button> */}
           </form>
         </div>
       </div>

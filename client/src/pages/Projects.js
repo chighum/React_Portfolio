@@ -7,7 +7,7 @@ function Projects() {
   });
   return (
     <div>
-      <h1 className="mb-5">Projects</h1>
+      <h3 className="mb-3">Projects</h3>
       <Project />
     </div>
   );

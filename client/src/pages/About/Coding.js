@@ -6,7 +6,7 @@ function Coding() {
   });
   return (
     <div className="container-fluid">
-      <h1 className="mb-5">Web Development</h1>
+      <h3 className="mb-3">Web Development</h3>
       <div className="row">
         <div className="col-md-6">
           <img
