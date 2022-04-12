@@ -7,18 +7,22 @@ function Resume() {
     document.title = "Resume";
   });
   return (
-    <div>
-      <a href="./images/CJH_Resume.pdf" role="button" target="_blank" download>
-        <img
-          id="resume"
-          src="./images/CJH_Resume.png"
-          alt="My Resume"
-          style={{ height: 700 }}
-        ></img>
-        <span>
-          <FaFileDownload />
-        </span>
-      </a>
+    <div className="row justify-content-center">
+      <div className="col-6 resume">
+        <div id="resumeImg">
+          <a
+            href="./images/CJH_Resume.pdf"
+            role="button"
+            target="_blank"
+            download
+          >
+            <img src="./images/CJH_Resume.png" alt="My Resume"></img>
+            <span className="overlay">
+              <FaFileDownload size="900px" />
+            </span>
+          </a>
+        </div>
+      </div>
     </div>
   );
 }

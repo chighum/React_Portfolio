@@ -91,9 +91,9 @@ function Contact() {
               ></textarea>
               <label for="message">Message</label>
             </div>
-            {/* <button type="submit" value="submit" className="btn">
+            <button type="submit" value="submit" className="btn">
               Submit
-            </button> */}
+            </button>
           </form>
         </div>
       </div>

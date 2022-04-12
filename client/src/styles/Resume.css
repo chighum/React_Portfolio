@@ -1,3 +1,18 @@
-#resume:hover {
-  text-align: center;
+/* .resume {
+  position: relative;
+} */
+
+.resume .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 97px;
+  margin: 0;
+  display: none;
+  opacity: 0.5;
+}
+
+.resume:hover .overlay {
+  display: block;
 }
