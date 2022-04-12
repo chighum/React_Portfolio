@@ -1,5 +1,4 @@
 import React from "react";
-import Modal from "../components/Modal";
 
 function Home() {
   React.useEffect(() => {
@@ -7,36 +6,35 @@ function Home() {
   });
 
   return (
-    <div>
-      <h3>Welcome to my portfolio page!</h3>
+    <div className="container">
+      <h3 className="mb-5">Welcome!</h3>
       <div className="row">
-        <div className="col-5 mx-5 align-self-center">
+        <div className="col-sm-12 col-lg-6 align-self-center text-start">
           <h5>
             My name is Charlie Highum, and I am a Full-Stack Web Developer in
             Denver, Colorado.
           </h5>
           <br />
-          <h5>I love to find creative solutions to complex problems</h5>
+          <h5>I love to find creative solutions to complex problems.</h5>
           <br />
           <h5>
             I also love to learn new coding frameworks or entire languages.
           </h5>
           <br />
           <h5>
-            Please feel free to learn more about me using the navigation bar at
-            the top of the page.
+            I'm glad you stopped by, and I hope you find something that sparks
+            your interest. If so, please feel free to get in touch!
           </h5>
           <br />
         </div>
-        <div className="col-5 mx-5">
+        <div className="col-sm-12 col-lg-6 ">
           <img
-            src="./images/MeAndElephant.jpeg"
-            alt="Photo of Me"
-            className="img-fluid rounded-3 shadow"
+            src="./images/Elephant.png"
+            alt="Elephant and me in Thailand"
+            className="img-fluid rounded-circle shadow"
           ></img>
         </div>
       </div>
-      <h3>Thanks for stopping by!</h3>
     </div>
   );
 }
