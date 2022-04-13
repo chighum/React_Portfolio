@@ -17,21 +17,42 @@ function Home() {
           ></img>
         </div>
         <div className="col-sm-12 col-lg-6 align-self-center text-start">
-          <h5>
+          <p>
             My name is Charlie Highum, and I am a Full-Stack Web Developer in
             Denver, Colorado.
-          </h5>
+          </p>
           <br />
-          <h5>I love to find creative solutions to complex problems.</h5>
+          <p>I love to find creative solutions to complex problems.</p>
           <br />
-          <h5>
-            I also love to learn new coding frameworks or entire languages.
-          </h5>
+          <p>
+            I also love to learn new coding frameworks or entire{" "}
+            <a href="/coding" className="home-links">
+              languages
+            </a>
+            .
+          </p>
           <br />
-          <h5>
+          <p>
+            You can use the navigation bar at the top to{" "}
+            <a href="/background" className="home-links">
+              learn more about me
+            </a>{" "}
+            and see some examples of{" "}
+            <a href="/projects" className="home-links">
+              my work
+            </a>
+            .
+          </p>
+          <br />
+          <p>
             I'm glad you stopped by, and I hope you find something that sparks
-            your interest. If so, please feel free to get in touch!
-          </h5>
+            your interest. If so, please feel free to{" "}
+            <a href="/contact" className="home-links">
+              get in touch.
+            </a>{" "}
+            You can also click the icons on the bottom of the page for direct
+            lines of contact!
+          </p>
           <br />
         </div>
       </div>

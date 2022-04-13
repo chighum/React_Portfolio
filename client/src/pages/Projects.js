@@ -6,7 +6,7 @@ function Projects() {
     document.title = "Projects";
   });
   return (
-    <div>
+    <div className="container">
       <h3 className="mb-3">Projects</h3>
       <Project />
     </div>

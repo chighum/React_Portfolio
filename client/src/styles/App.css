@@ -9,3 +9,14 @@ a {
 .App {
   text-align: center;
 }
+
+.home-links {
+  font-weight: bolder;
+  color: #203274;
+}
+
+.home-links:hover {
+  font-weight: bolder;
+  text-decoration: underline !important;
+  color: #203274 !important;
+}

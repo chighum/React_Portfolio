@@ -1,24 +1,5 @@
 import React from "react";
 
-// let index = 0;
-// let images = [
-// "./images/YoungBull.JPG",
-// "./images/Cats.jpeg",
-// "./images/CinqueTerre.JPG",
-// "./images/PatagoniaLogo.JPG",
-// "./images/Elephant.png",
-// ];
-
-// function rotateImage() {
-//   index++;
-//   if (index === images.length) {
-//     index = 0;
-//   }
-//   document.getElementById("images").src = images[index];
-
-//   setTimeout(rotateImage, 5000);
-// }
-
 function Background() {
   React.useEffect(() => {
     document.title = "Background";
@@ -52,7 +33,7 @@ function Background() {
         <div className="col-md-6">
           <div
             id="carousel-indicators"
-            className="carousel carousel-dark slide"
+            className="carousel slide"
             data-bs-ride="carousel"
           >
             <div className="carousel-inner">
