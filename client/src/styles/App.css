@@ -47,17 +47,17 @@ h5 {
 @media only screen and (max-width: 600px) {
   .page-title {
     font-size: 40px;
-    font-family: "Playfair Display";
-    color: #203274;
-    font-weight: bold;
   }
 }
 
 @media only screen and (max-width: 460px) {
   .page-title {
     font-size: 35px;
-    font-family: "Playfair Display";
-    color: #203274;
-    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .page-title {
+    font-size: 30px;
   }
 }
