@@ -18,3 +18,11 @@
     height: 200px !important;
   }
 }
+
+.carousel-label {
+  display: none;
+}
+
+.carousel-hover:hover .carousel-label {
+  display: inline-block !important;
+}

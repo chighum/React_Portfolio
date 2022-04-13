@@ -9,10 +9,10 @@ function Coding() {
     <div className="container-fluid">
       <h3 className="mb-3">Web Development</h3>
       <div className="row">
-        <div className="col-lg-6 mb-3">
+        <div className="col-lg-6 mb-3 carousel-hover">
           <div
             id="carousel-indicators"
-            className="carousel slide"
+            className="carousel carousel-dark slide"
             data-bs-ride="carousel"
           >
             <div className="carousel-inner">
@@ -111,6 +111,9 @@ function Coding() {
               ></span>
               <span className="visually-hidden">Next</span>
             </button>
+          </div>
+          <div className="carousel-label">
+            <h5 className="mt-3">Languages and technologies that I know</h5>
           </div>
         </div>
         <div className="col-lg-6 align-self-center">
