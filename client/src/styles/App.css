@@ -30,6 +30,10 @@ h5 {
   font-weight: bold;
 }
 
+.carousel-label {
+  color: #203274;
+}
+
 .contact-title {
   font-family: "Playfair Display";
   color: #203274;

@@ -116,7 +116,9 @@ function Coding() {
             </button>
           </div>
           <div className="carousel-label">
-            <h5 className="mt-3">My preferred languages and technologies</h5>
+            <h5 className="mt-3 carousel-label">
+              My preferred languages and technologies
+            </h5>
           </div>
         </div>
         <div className="col-lg-6 align-self-center">

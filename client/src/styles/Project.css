@@ -59,6 +59,13 @@
   width: 550px;
 }
 
+@media only screen and (max-width: 1400px) {
+  .card-image {
+    height: 315px;
+    width: 525px;
+  }
+}
+
 @media only screen and (max-width: 1300px) {
   .card-image {
     height: 300px;
