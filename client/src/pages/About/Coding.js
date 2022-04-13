@@ -9,7 +9,7 @@ function Coding() {
     <div className="container-fluid">
       <h3 className="mb-3">Web Development</h3>
       <div className="row">
-        <div className="col-md-6 mb-3">
+        <div className="col-lg-6 mb-3">
           <div
             id="carousel-indicators"
             className="carousel slide"
@@ -25,7 +25,7 @@ function Coding() {
               </div>
               <div className="carousel-item">
                 <img
-                  src="./images/css.jpeg"
+                  src="./images/css.png"
                   alt="CSS 3"
                   className="carousel-image"
                 ></img>
@@ -81,8 +81,8 @@ function Coding() {
               </div>
               <div className="carousel-item">
                 <img
-                  src="./images/mongoose.png"
-                  alt="MongoDB"
+                  src="./images/graphql.png"
+                  alt="GraphQL"
                   className="carousel-image"
                 ></img>
               </div>
@@ -113,7 +113,7 @@ function Coding() {
             </button>
           </div>
         </div>
-        <div className="col-md-6 align-self-center">
+        <div className="col-lg-6 align-self-center">
           <p>
             While studying Petroleum Engineering at UT, I had very little
             exposure to programming aside from a few courses on R and Matlab.
