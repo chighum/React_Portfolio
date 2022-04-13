@@ -1,34 +1,34 @@
 import React from "react";
 
-let index = 0;
-let images = [
-  "./images/YoungBull.JPG",
-  "./images/Cats.jpeg",
-  "./images/CinqueTerre.JPG",
-  "./images/PatagoniaLogo.JPG",
-  "./images/Elephant.png",
-];
+// let index = 0;
+// let images = [
+// "./images/YoungBull.JPG",
+// "./images/Cats.jpeg",
+// "./images/CinqueTerre.JPG",
+// "./images/PatagoniaLogo.JPG",
+// "./images/Elephant.png",
+// ];
 
-function rotateImage() {
-  index++;
-  if (index === images.length) {
-    index = 0;
-  }
-  document.getElementById("images").src = images[index];
+// function rotateImage() {
+//   index++;
+//   if (index === images.length) {
+//     index = 0;
+//   }
+//   document.getElementById("images").src = images[index];
 
-  setTimeout(rotateImage, 5000);
-}
+//   setTimeout(rotateImage, 5000);
+// }
 
 function Background() {
   React.useEffect(() => {
     document.title = "Background";
   });
-  window.onload = rotateImage;
+  // window.onload = rotateImage;
   return (
     <div className="container-xxl">
       <h3 className="mb-3">Background</h3>
       <div className="row">
-        <div className="col-md-6 mb-3">
+        <div className="col-md-6 mb-3 align-self-center">
           <p>
             I was born and raised in Denver, Colorado where I lived my entire
             life until moving to Austin, Texas to study at the University of
@@ -50,12 +50,73 @@ function Background() {
           </p>
         </div>
         <div className="col-md-6">
-          <img
-            src="./images/Elephant.png"
-            alt="Photos of me with friends and family"
-            className="rounded-3 shadow img-fluid"
-            id="images"
-          ></img>
+          <div
+            id="carousel-indicators"
+            className="carousel carousel-dark slide"
+            data-bs-ride="carousel"
+          >
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <img
+                  src="./images/YoungBull.JPG"
+                  alt="Me as a child"
+                  className="carousel-image"
+                ></img>
+              </div>
+              <div className="carousel-item">
+                <img
+                  src="./images/Cats.jpeg"
+                  alt="My two cats"
+                  className="carousel-image"
+                ></img>
+              </div>
+              <div className="carousel-item">
+                <img
+                  src="./images/CinqueTerre.JPG"
+                  alt="Cinque Terre, Italy"
+                  className="carousel-image"
+                ></img>
+              </div>
+              <div className="carousel-item">
+                <img
+                  src="./images/PatagoniaLogo.JPG"
+                  alt="Cerro Chalten (Mount Fitz Roy), Argentina"
+                  className="carousel-image"
+                ></img>
+              </div>
+              <div className="carousel-item">
+                <img
+                  src="./images/Elephant.png"
+                  alt="Me and an Elephant in Thailand"
+                  className="carousel-image"
+                ></img>
+              </div>
+            </div>
+            <button
+              className="carousel-control-prev"
+              type="button"
+              data-bs-target="#carousel-indicators"
+              data-bs-slide="prev"
+            >
+              <span
+                className="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="visually-hidden">Previous</span>
+            </button>
+            <button
+              className="carousel-control-next"
+              type="button"
+              data-bs-target="#carousel-indicators"
+              data-bs-slide="next"
+            >
+              <span
+                className="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
       </div>
     </div>
