@@ -36,12 +36,22 @@
   display: block;
 }
 
-.modalBtn .card-image-overtop {
+#project1 .card-image-overtop,
+#project3 .card-image-overtop {
   left: -25px;
   top: -25px;
   margin: 0;
   position: absolute;
 }
+
+#project2 .card-image-overtop,
+#project4 .card-image-overtop {
+  right: -25px;
+  top: -25px;
+  margin: 0;
+  position: absolute;
+}
+
 .modalBtn:hover .card-image-overtop {
   display: block;
 }

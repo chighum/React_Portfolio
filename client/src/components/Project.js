@@ -16,7 +16,7 @@ function Project() {
                 data-bs-toggle="modal"
                 data-bs-target={project.id}
               >
-                <div className="project-card">
+                <div className="project-card" id={project.style_id}>
                   <img
                     src={project.image}
                     alt={project.name}

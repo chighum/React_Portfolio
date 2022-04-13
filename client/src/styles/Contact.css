@@ -5,6 +5,8 @@
   border-width: thin;
   background-color: #e7e1da !important;
   color: #203274 !important;
+  font-family: "Playfair Display";
+  font-size: 25px !important;
 }
 
 .submit-btn:hover {
@@ -14,4 +16,11 @@
   border-width: thin;
   background-color: #203274 !important;
   color: #e7e1da !important;
+}
+
+.contact-title {
+  font-family: "Playfair Display";
+  color: #203274;
+  font-weight: bold;
+  font-size: 25px;
 }

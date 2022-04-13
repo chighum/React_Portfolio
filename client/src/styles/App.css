@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:i,bi,b");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:italic,black,extrabold,bold,semibold,medium,regular");
 
 main {
   background: radial-gradient(circle, #e7e1da 54%, #a6b5f7 100%);
@@ -32,13 +32,6 @@ h5 {
 
 .carousel-label {
   color: #203274;
-}
-
-.contact-title {
-  font-family: "Playfair Display";
-  color: #203274;
-  font-weight: bold;
-  font-size: 25px;
 }
 
 .page-title {

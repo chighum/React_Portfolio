@@ -6,7 +6,7 @@ function Coding() {
     document.title = "Web Development";
   });
   return (
-    <div className="container-fluid">
+    <div className="container-xxl">
       <h2 className="mb-3 page-title">WEB DEVELOPMENT</h2>
       <div className="row">
         <div className="col-lg-6 mb-3 carousel-hover">

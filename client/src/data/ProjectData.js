@@ -2,6 +2,7 @@ const projects = [
   {
     name: "RainingCatsAndDogs",
     space_name: "Raining Cats and Dogs",
+    style_id: "project1",
     id: "#RainingCatsAndDogs",
     description:
       "This is an e-commerce site that allows users to create an account, update their user information, view pictures of dogs and cats for sale, add and delete items from a cart, and finally purchase said items. It was created using the MERN Stack with GraphQL and Stripe integration in order to process payments.",
@@ -13,6 +14,7 @@ const projects = [
   {
     name: "HappyCamper",
     space_name: "Happy Camper",
+    style_id: "project2",
     id: "#HappyCamper",
     description:
       "Created using Handlebars.js, MySQL, and Bulma Framework, this application will find all National Park Campgrounds in Colorado and display information for them. You've decided the weather is too bad in the area to go camping? Check out a list of our favorite outdoor adventure books, and see if something catches your eye!",
@@ -24,6 +26,7 @@ const projects = [
   {
     name: "FeedMe",
     space_name: "Feed Me",
+    style_id: "project3",
     id: "#FeedMe",
     description:
       "FeedMe is a web application that takes user input of existing ingredients in their home and points them to possible recipes by utilizing the Spoonacular API, thus allowing the user to limit food waste and unnecessary trips to the grocery store.",
@@ -36,6 +39,7 @@ const projects = [
   {
     name: "TextEditor",
     space_name: "Just Another Text Editor",
+    style_id: "project4",
     id: "#TextEditor",
     description:
       "This was a homework assignment for the DU Coding Bootcamp that required me to take an existing text editor app and add functionality for it to work as a PWA and function offline. This was done by implementing methods for storing and getting data from an IndexedDB database using the idb package, registering a service worker, and creating a manifest.json file.",
