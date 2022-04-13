@@ -96,7 +96,7 @@ function Project() {
           <span>
             <FaGithub size="30px" />
           </span>{" "}
-          Full Github Repository
+          Github Profile
         </a>
       </div>
     </div>
