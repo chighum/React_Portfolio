@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:i,bi,b");
+
 main {
-  background-color: #e7e1da;
+  background: radial-gradient(circle, #e7e1da 54%, #a6b5f7 100%);
 }
 
 a {
@@ -19,4 +21,10 @@ a {
   font-weight: bolder;
   text-decoration: underline !important;
   color: #203274 !important;
+}
+
+h3 {
+  font-family: "Playfair Display";
+  color: #203274;
+  font-weight: bold;
 }

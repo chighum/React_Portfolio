@@ -7,13 +7,13 @@ function Home() {
 
   return (
     <div className="container">
-      <h3 className="mb-3">Welcome!</h3>
+      <h3 className="mb-3">WELCOME</h3>
       <div className="row">
         <div className="col-sm-12 col-lg-6 mb-3">
           <img
             src="./images/Elephant.png"
             alt="Elephant and me in Thailand"
-            className="img-fluid rounded-circle shadow"
+            className="img-fluid rounded-circle shadow animated slideInDown"
           ></img>
         </div>
         <div className="col-sm-12 col-lg-6 align-self-center text-start">

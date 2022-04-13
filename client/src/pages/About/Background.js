@@ -7,7 +7,7 @@ function Background() {
   // window.onload = rotateImage;
   return (
     <div className="container-xxl">
-      <h3 className="mb-3">Background</h3>
+      <h3 className="mb-3">BACKGROUND</h3>
       <div className="row">
         <div className="col-md-6 mb-3 align-self-center">
           <p>

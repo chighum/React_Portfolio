@@ -7,7 +7,7 @@ function Coding() {
   });
   return (
     <div className="container-fluid">
-      <h3 className="mb-3">Web Development</h3>
+      <h3 className="mb-3">WEB DEVELOPMENT</h3>
       <div className="row">
         <div className="col-lg-6 mb-3 carousel-hover">
           <div
@@ -62,7 +62,7 @@ function Coding() {
                 <img
                   src="./images/mongoose.png"
                   alt="mongoose"
-                  className="mongoose"
+                  className="mongoose img-fluid"
                 ></img>
                 <div className="carousel-caption d-none d-md-block">
                   <h1 className="mongoose-caption">Mongoose</h1>
