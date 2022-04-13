@@ -29,7 +29,7 @@ function Contact() {
 
   return (
     <div className="container">
-      <h3 className="mb-3">I would love to hear from you!</h3>
+      <h4 className="mb-3 contact-title">I would love to hear from you!</h4>
       <div className="row">
         <div className="col-md-12">
           <form

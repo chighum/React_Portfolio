@@ -7,7 +7,7 @@ function Home() {
 
   return (
     <div className="container">
-      <h3 className="mb-3">WELCOME</h3>
+      <h2 className="mb-3 page-title">WELCOME</h2>
       <div className="row">
         <div className="col-sm-12 col-lg-6 mb-3">
           <img

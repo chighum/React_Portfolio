@@ -7,7 +7,7 @@ function Coding() {
   });
   return (
     <div className="container-fluid">
-      <h3 className="mb-3">WEB DEVELOPMENT</h3>
+      <h2 className="mb-3 page-title">WEB DEVELOPMENT</h2>
       <div className="row">
         <div className="col-lg-6 mb-3 carousel-hover">
           <div

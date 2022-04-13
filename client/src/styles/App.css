@@ -23,7 +23,22 @@ a {
   color: #203274 !important;
 }
 
-h3 {
+h3,
+h5 {
+  font-family: "Playfair Display";
+  color: #e7e1da;
+  font-weight: bold;
+}
+
+.contact-title {
+  font-family: "Playfair Display";
+  color: #203274;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.page-title {
+  font-size: 50px;
   font-family: "Playfair Display";
   color: #203274;
   font-weight: bold;

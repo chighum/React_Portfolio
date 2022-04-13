@@ -7,7 +7,7 @@ function Projects() {
   });
   return (
     <div className="container">
-      <h3 className="mb-3">PROJECTS</h3>
+      <h2 className="mb-3 page-title">PROJECTS</h2>
       <Project />
     </div>
   );

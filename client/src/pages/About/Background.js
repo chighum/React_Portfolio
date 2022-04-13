@@ -7,7 +7,7 @@ function Background() {
   // window.onload = rotateImage;
   return (
     <div className="container-xxl">
-      <h3 className="mb-3">BACKGROUND</h3>
+      <h2 className="mb-3 page-title">BACKGROUND</h2>
       <div className="row">
         <div className="col-md-6 mb-3 align-self-center">
           <p>
@@ -48,7 +48,7 @@ function Background() {
                 <img
                   src="./images/Cats.jpeg"
                   alt="My two cats"
-                  className="carousel-image"
+                  className="carousel-image rounded-3"
                 ></img>
               </div>
               <div className="carousel-item">
