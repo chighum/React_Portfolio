@@ -1,4 +1,5 @@
 import React from "react";
+import "../../styles/Coding.css";
 
 function Coding() {
   React.useEffect(() => {
@@ -9,11 +10,108 @@ function Coding() {
       <h3 className="mb-3">Web Development</h3>
       <div className="row">
         <div className="col-md-6 mb-3">
-          <img
-            src="./images/Technologies.png"
-            alt="Technologies I know"
-            className="rounded-3 shadow img-fluid"
-          ></img>
+          <div
+            id="carousel-indicators"
+            className="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <img
+                  src="./images/html.png"
+                  alt="HTML5"
+                  className="carousel-image"
+                ></img>
+              </div>
+              <div className="carousel-item">
+                <img
+                  src="./images/css.jpeg"
+                  alt="CSS 3"
+                  className="carousel-image"
+                ></img>
+              </div>
+              <div className="carousel-item">
+                <img
+                  src="./images/javascript.png"
+                  alt="Javascript"
+                  className="carousel-image"
+                ></img>
+              </div>
+              <div className="carousel-item">
+                <img
+                  src="./images/node-js.png"
+                  alt="Node.js"
+                  className="carousel-image"
+                ></img>
+              </div>
+              <div className="carousel-item">
+                <img
+                  src="./images/react-js.png"
+                  alt="React.js"
+                  className="carousel-image"
+                ></img>
+              </div>
+              <div className="carousel-item">
+                <img
+                  src="./images/mongodb.png"
+                  alt="MongoDB"
+                  className="carousel-image"
+                ></img>
+              </div>
+              <div className="carousel-item">
+                <img
+                  src="./images/mongoose.png"
+                  alt="MongoDB"
+                  className="carousel-image"
+                ></img>
+              </div>
+              <div className="carousel-item">
+                <img
+                  src="./images/MySQL.png"
+                  alt="MySQL"
+                  className="carousel-image"
+                ></img>
+              </div>
+              <div className="carousel-item">
+                <img
+                  src="./images/sequelize.png"
+                  alt="sequelize"
+                  className="carousel-image"
+                ></img>
+              </div>
+              <div className="carousel-item">
+                <img
+                  src="./images/mongoose.png"
+                  alt="MongoDB"
+                  className="carousel-image"
+                ></img>
+              </div>
+            </div>
+            <button
+              className="carousel-control-prev"
+              type="button"
+              data-bs-target="#carousel-indicators"
+              data-bs-slide="prev"
+            >
+              <span
+                className="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="visually-hidden">Previous</span>
+            </button>
+            <button
+              className="carousel-control-next"
+              type="button"
+              data-bs-target="#carousel-indicators"
+              data-bs-slide="next"
+            >
+              <span
+                className="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
         <div className="col-md-6 align-self-center">
           <p>
