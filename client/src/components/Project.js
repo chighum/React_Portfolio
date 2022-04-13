@@ -1,6 +1,7 @@
 import React from "react";
 import projects from "../data/ProjectData";
 import "../styles/Project.css";
+import { FaGithub } from "react-icons/fa";
 
 // this will generate each individual project
 function Project() {
@@ -84,6 +85,19 @@ function Project() {
             </div>
           );
         })}
+      </div>
+      <div>
+        <a
+          href="https://github.com/chighum"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="github-button p-2"
+        >
+          <span>
+            <FaGithub size="30px" />
+          </span>{" "}
+          Full Github Repository
+        </a>
       </div>
     </div>
   );

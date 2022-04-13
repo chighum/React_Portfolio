@@ -1,3 +1,23 @@
+.github-button {
+  border-style: solid;
+  border-color: #203274 !important;
+  border-radius: 15px !important;
+  border-width: thin;
+  background-color: #e7e1da !important;
+  color: #203274 !important;
+  font-family: "Playfair Display";
+  font-size: 20px !important;
+}
+
+.github-button:hover {
+  border-style: solid;
+  border-color: #203274 !important;
+  border-radius: 15px;
+  border-width: thin;
+  background-color: #203274 !important;
+  color: #e7e1da !important;
+}
+
 .modal-content {
   background: linear-gradient(#203274, #b5c1f5cc) !important;
   color: #e7e1da !important;
