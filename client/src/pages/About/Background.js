@@ -21,7 +21,7 @@ function Background() {
           </p>
           <br />
           <p>
-            Growing up in Denver I have spent a large amount of my time outside.
+            Growing up in Denver I spent a large amount of my time outside.
             Whether I'm playing sports such as lacrosse, soccer, or football, or
             spending time in the mountains skiing, fishing, hiking, or camping,
             I still spend the majority of my time outdoors. I also love to get
