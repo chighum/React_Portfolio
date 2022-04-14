@@ -1,4 +1,5 @@
 import React from "react";
+import "../../styles/Background.css";
 
 function Background() {
   React.useEffect(() => {
@@ -48,7 +49,7 @@ function Background() {
                 <img
                   src="./images/Cats.jpeg"
                   alt="My two cats"
-                  className="carousel-image rounded-3"
+                  className="carousel-image"
                 ></img>
               </div>
               <div className="carousel-item">

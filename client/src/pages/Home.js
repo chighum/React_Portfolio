@@ -13,7 +13,7 @@ function Home() {
           <img
             src="./images/Elephant.png"
             alt="Elephant and me in Thailand"
-            className="img-fluid rounded-circle shadow animated slideInDown"
+            className="img-fluid rounded-circle shadow home-image"
           ></img>
         </div>
         <div className="col-sm-12 col-lg-6 align-self-center text-start">
