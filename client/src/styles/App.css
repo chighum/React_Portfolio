@@ -12,6 +12,11 @@ a {
   text-align: center;
 }
 
+.span {
+  color: #e7e1da;
+  font-family: "Playfair Display";
+}
+
 .home-links {
   font-weight: bolder;
   color: #203274;

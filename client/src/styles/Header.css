@@ -7,11 +7,6 @@ nav,
   background-color: #203274 !important;
 }
 
-.span {
-  color: #e7e1da;
-  font-family: "Playfair Display";
-}
-
 .nav-link:hover,
 .dropdown-item:hover {
   border-style: solid;

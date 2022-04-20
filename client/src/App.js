@@ -9,7 +9,6 @@ import Resume from "./pages/Resume";
 import Background from "./pages/About/Background";
 import Coding from "./pages/About/Coding";
 import Hobbies from "./pages/About/Hobbies";
-import "./styles/App.css";
 
 function App() {
   return (

@@ -1,8 +1,18 @@
 import React from "react";
+import anime from "animejs/lib/anime.es.js";
 
 function Home() {
   React.useEffect(() => {
     document.title = "Charlie Highum";
+  });
+
+  anime.timeline().add({
+    targets: ".page-title",
+    scale: [14, 1],
+    opacity: [0, 1],
+    easing: "easeOutCirc",
+    duration: 800,
+    delay: (el, i) => 800 * i,
   });
 
   return (
