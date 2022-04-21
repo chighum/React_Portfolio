@@ -18,7 +18,7 @@ function Background() {
             perpetually over-hyped football team, and also managed to obtain a
             B.S. in Petroleum Engineering along the way. After graduating, I
             moved to Vail, Colorado in order to be a ski instructor for a few
-            years, and had the time of my life.
+            years and take some time to figure out my next step.
           </p>
           <br />
           <p>
