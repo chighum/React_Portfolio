@@ -56,30 +56,34 @@
   display: block;
 }
 
-#project1 .card-image-overtop {
-  left: -25px;
-  top: -25px;
-  margin: 0;
-  position: absolute;
-}
-
-#project2 .card-image-overtop {
-  right: -25px;
-  top: -25px;
-  margin: 0;
-  position: absolute;
-}
-
+#project1 .card-image-overtop,
 #project3 .card-image-overtop {
   left: -25px;
-  bottom: -25px;
+  top: -25px;
   margin: 0;
   position: absolute;
 }
 
+#project2 .card-image-overtop,
 #project4 .card-image-overtop {
   right: -25px;
-  bottom: -25px;
+  top: -25px;
+  margin: 0;
+  position: absolute;
+}
+
+#project1 .card-image-badge,
+#project3 .card-image-badge {
+  right: -25px;
+  top: -25px;
+  margin: 0;
+  position: absolute;
+}
+
+#project2 .card-image-badge,
+#project4 .card-image-badge {
+  left: -25px;
+  top: -25px;
   margin: 0;
   position: absolute;
 }

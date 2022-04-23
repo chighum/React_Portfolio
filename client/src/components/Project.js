@@ -32,6 +32,14 @@ function Project() {
                         style={{ height: 75, width: 75 }}
                       ></img>
                     </div>
+                    <div className="card-image-badge">
+                      <img
+                        className="card-image-overlay-icon rounded-circle"
+                        src="./images/Certificate-badge.png"
+                        alt="Full Stack Web Dev Certificate Icon"
+                        style={{ height: 100, width: 100 }}
+                      ></img>
+                    </div>
                     <div className="card-title">
                       <h3>{project.space_name}</h3>
                     </div>
