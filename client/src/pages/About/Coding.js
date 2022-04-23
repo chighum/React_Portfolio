@@ -18,6 +18,13 @@ function Coding() {
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <img
+                  src="./images/Certificate.png"
+                  alt="Full Stack Web Development Certificate"
+                  className="carousel-image"
+                ></img>
+              </div>
+              <div className="carousel-item active">
+                <img
                   src="./images/html.png"
                   alt="HTML5"
                   className="carousel-image"
