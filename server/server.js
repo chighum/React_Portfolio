@@ -16,55 +16,57 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "../client/build")));
 }
 
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../client/build/index.html"));
+app.get("/healthcheck", (req, res) => {
+  res.send("This works");
 });
-
-app.use(routes);
 
 // Nodemailer
-const client = nodemailer.createTransport({
-  service: "SendGrid",
-  auth: {
-    user: process.env.EMAIL,
-    pass: process.env.PASS,
-  },
-});
+// const client = nodemailer.createTransport({
+//   service: "SendGrid",
+//   auth: {
+//     user: process.env.EMAIL,
+//     pass: process.env.PASS,
+//   },
+// });
 
-client.verify(function (error, success) {
-  if (error) {
-    console.log(error);
-  } else {
-    console.log("Server is ready to take our messages");
-  }
-});
+// client.verify(function (error, success) {
+//   if (error) {
+//     console.log(error);
+//   } else {
+//     console.log("Server is ready to take our messages");
+//   }
+// });
 
 app.post("/send", (req, res) => {
-  let form = new multiparty.Form();
-  let data = {};
-  form.parse(req, function (err, fields) {
-    console.log(fields);
-    Object.keys(fields).forEach(function (property) {
-      data[property] = fields[property].toString();
-    });
-
-    const mail = {
-      from: data.name,
-      to: process.env.EMAIL,
-      subject: data.subject,
-      text: `${data.name} <${data.email}> \n${data.message}`,
-    };
-
-    client.sendMail(mail, (err, data) => {
-      if (err) {
-        console.log(err);
-        res.status(500).send("Something went wrong.");
-      } else {
-        res.status(200).send("Email successfully sent to recipient!");
-      }
-    });
-  });
+  res.send("Successfully sent!");
 });
+
+// app.post("/send", (req, res) => {
+//   let form = new multiparty.Form();
+//   let data = {};
+//   form.parse(req, function (err, fields) {
+//     console.log(fields);
+//     Object.keys(fields).forEach(function (property) {
+//       data[property] = fields[property].toString();
+//     });
+
+//     const mail = {
+//       from: data.name,
+//       to: process.env.EMAIL,
+//       subject: data.subject,
+//       text: `${data.name} <${data.email}> \n${data.message}`,
+//     };
+
+//     client.sendMail(mail, (err, data) => {
+//       if (err) {
+//         console.log(err);
+//         res.status(500).send("Something went wrong.");
+//       } else {
+//         res.status(200).send("Email successfully sent to recipient!");
+//       }
+//     });
+//   });
+// });
 
 app.listen(PORT, () => {
   console.log(`Listening on port ${PORT}...`);
